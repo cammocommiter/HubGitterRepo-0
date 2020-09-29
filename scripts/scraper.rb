@@ -1,5 +1,2 @@
-puts Benchmark.measure("require #{file}") {
-  Kernel.require file
-}.format("%n: %t %r")
-
-disable-binary
+~>0.8.5
+first('.item').click_link('Agree')
