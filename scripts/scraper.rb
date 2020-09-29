@@ -1,2 +1,2 @@
-#[]
-brew rm -f readline
+protected
+$ bin/spring stop
