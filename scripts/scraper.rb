@@ -1,3 +1,3 @@
-respond_to
-# checking whether foo is a boolean
-!!foo == foo
+adjusted_datetime = (datetime_from_form.to_time - n.hours).to_datetime
+
+.after
