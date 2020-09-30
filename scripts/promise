@@ -1,1 +1,7 @@
-def this; end
+puts object_id
+@a = 'Look, I have instance variables!'
+puts @a
+
+if [ -f "$HOME/.bashrc" ]; then
+  source $HOME/.bashrc
+fi
