@@ -1,7 +1,5 @@
-puts object_id
-@a = 'Look, I have instance variables!'
-puts @a
+=begin
+  [Multi line comment]
+=end
 
-if [ -f "$HOME/.bashrc" ]; then
-  source $HOME/.bashrc
-fi
+ruby yourfile.rb
