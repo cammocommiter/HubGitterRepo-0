@@ -1,5 +1,10 @@
-=begin
-  [Multi line comment]
-=end
+module Crawler
+  def self.logger
+    @logger
+  end
+  def self.logger=(logger)
+    @logger = logger
+  end
+end
 
-ruby yourfile.rb
+hash = Hash.new([])
