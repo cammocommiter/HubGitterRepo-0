@@ -1,2 +1,3 @@
-match
-slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+ruby -run -e httpd . -p 9090
+
+!~
