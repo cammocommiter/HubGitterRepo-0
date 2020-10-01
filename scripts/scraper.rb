@@ -1,6 +1,2 @@
-$ gem sources
-*** CURRENT SOURCES ***
-
-https://rubygems.org/
-
-File.dirname(__FILE__)
+@@
+consider_all_requests_local
