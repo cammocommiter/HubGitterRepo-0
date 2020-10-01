@@ -1,2 +1,6 @@
-@@
-consider_all_requests_local
+hash.each do |key, array|
+  puts "#{key}-----"
+  puts array
+end
+
+sudo gem install cocoapods
