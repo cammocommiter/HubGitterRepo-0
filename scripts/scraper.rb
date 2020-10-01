@@ -1,6 +1,4 @@
-hash.each do |key, array|
-  puts "#{key}-----"
-  puts array
-end
+@posts = Post.joins("LEFT OUTER JOIN users ON users.id = posts.user_id").
+              joins(:blog).select
 
-sudo gem install cocoapods
+String#scan
