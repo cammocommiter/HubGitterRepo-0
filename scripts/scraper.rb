@@ -1,2 +1,2 @@
-&.
-xcode-select
+XCode
+helper :all
