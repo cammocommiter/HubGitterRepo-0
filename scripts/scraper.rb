@@ -1,4 +1,5 @@
-@posts = Post.joins("LEFT OUTER JOIN users ON users.id = posts.user_id").
-              joins(:blog).select
+def true?(obj)
+  obj.to_s.downcase == "true"
+end
 
-String#scan
+Symbol
