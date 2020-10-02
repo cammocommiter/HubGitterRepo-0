@@ -1,5 +1,2 @@
-def true?(obj)
-  obj.to_s.downcase == "true"
-end
-
-Symbol
+!
+  sudo apt-get install libmagickwand-dev imagemagick
