@@ -1,2 +1,2 @@
--
-bundle config github.https true
+open
+Digest::SHA512.base64digest(user.password_digest)
