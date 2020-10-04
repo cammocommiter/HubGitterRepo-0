@@ -1,11 +1,12 @@
-def print_and_flush(str)
-  print str
-  $stdout.flush
+class Array
+  def comprehend(&block)
+    return self if block.nil?
+    self.collect(&block).compact
+  end
 end
 
-100.times do
-  print_and_flush "."
-  sleep 1
-end
+some_array = [1, 2, 3, 4, 5, 6]
+new_array = some_array.comprehend {|x| x * 3 if x % 2 == 0}
+puts new_array
 
-application_controller.rb
+with_index
