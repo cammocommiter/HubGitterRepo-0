@@ -1,7 +1,2 @@
-# Check
-find(:css, "#cityID[value='62']").set(true)
-
-# Uncheck
-find(:css, "#cityID[value='62']").set(false)
-
-install
+deep_symbolize_keys
+Failed to build gem native extension errors
