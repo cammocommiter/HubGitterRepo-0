@@ -1,3 +1,2 @@
-ruby1.9.1-dev
-brew unlink imagemagick
-brew install imagemagick@6 && brew link imagemagick@6 --force
+output
+capture
