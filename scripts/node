@@ -1,2 +1,2 @@
-open
-Digest::SHA512.base64digest(user.password_digest)
+instance_eval
+render_views
