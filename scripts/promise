@@ -1,3 +1,2 @@
-gem install bundler
-
-define_singleton_method
+ruby1.9.1-dev
+sudo gem install cocoapods
