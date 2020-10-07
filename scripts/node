@@ -1,3 +1,2 @@
-sudo apt-get install libmysql-ruby libmysqlclient-dev
-
-begin <code> end while <condition>
+unshift
+array.should =~ another_array
