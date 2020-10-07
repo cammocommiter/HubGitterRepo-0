@@ -1,7 +1,5 @@
-def self.secret
-  'xxx'
-end
+require 'date'
+now = Date.today
+ninety_days_ago = (now - 90)
 
-private_class_method :secret
-
-Id
+$stdout
