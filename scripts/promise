@@ -1,5 +1,4 @@
-X.each_with_index do |item, index|
-  puts "current_index: #{index}"
-end
+$ which jekyll
+# /path/to/rvm/gems/ruby-version/bin/jekyll
 
-Gem::Version.new('0.4.1') > Gem::Version.new('0.10.1')
+uniq
