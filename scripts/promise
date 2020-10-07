@@ -1,2 +1,4 @@
-gem environment
-git://github.com/Dakuan/client_side_validations.git
+brew unlink imagemagick
+brew install imagemagick@6 && brew link imagemagick@6 --force
+
+cd C:\Ruby193\DevKit
