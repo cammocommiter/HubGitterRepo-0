@@ -1,9 +1,7 @@
-class Float
-  def self.times(&block)
-    self.to_i.times { |i| yield(i) }
-    remainder = self - self.to_i
-    yield(remainder) if remainder > 0.0
-  end
-end
+>> hash = { "a"=>["a", "b", "c"], "b"=>["b", "c"] }
+=> {"a"=>["a", "b", "c"], "b"=>["b", "c"]}
+>> hash.values
+=> [["a", "b", "c"], ["b", "c"]]
 
-gem install bundler
+Time.now.strftime("%d/%m/%Y %H:%M")
+#=> "14/09/2011 14:09"
