@@ -1,5 +1,3 @@
-Pathname#exist?
-require 'pathname'
+File.open(filename).grep(/string/)
 
-Pathname.new('/opt/local/bin/ruby').basename
-# => #<Pathname:ruby>
+describe
