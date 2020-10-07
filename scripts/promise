@@ -1,2 +1,5 @@
-SecureRandom
-[*('a'..'z'), *('0'..'9')] # doesn't work in Ruby 1.8
+Pathname#exist?
+require 'pathname'
+
+Pathname.new('/opt/local/bin/ruby').basename
+# => #<Pathname:ruby>
