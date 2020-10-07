@@ -1,14 +1,7 @@
-render_404
-class Foo
-  def bar
-    'Hello'
-  end
-end 
-
-class ExtendedFoo < Foo
-  def bar
-    super + ' World'
+class String
+  def initial
+    self[0,1]
   end
 end
 
-ExtendedFoo.new.bar # => 'Hello World'
+f.input :color, :as => :select, :collection => Wine.colors.keys.to_a
