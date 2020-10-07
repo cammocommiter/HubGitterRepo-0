@@ -1,5 +1,14 @@
-$1
-uri = URI.parse("https://example.com/some/path")
-http = Net::HTTP.new(uri.host, uri.port)
-http.use_ssl = true
-@data = http.get(uri.request_uri)
+render_404
+class Foo
+  def bar
+    'Hello'
+  end
+end 
+
+class ExtendedFoo < Foo
+  def bar
+    super + ' World'
+  end
+end
+
+ExtendedFoo.new.bar # => 'Hello World'
