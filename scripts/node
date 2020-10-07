@@ -1,4 +1,3 @@
-config.assets.compile = true
-config.assets.precompile =  ['*.js', '*.css', '*.css.erb'] 
+File.expand_path(__FILE__) et al
 
-..
+sudo apt-get install libxslt-dev libxml2-dev
