@@ -1,5 +1,7 @@
-user = User.new
-user.username = "foobar"
-user.save!
+def self.secret
+  'xxx'
+end
 
-[*foo]
+private_class_method :secret
+
+Id
