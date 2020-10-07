@@ -1,3 +1,2 @@
-File.expand_path(__FILE__) et al
-
-sudo apt-get install libxslt-dev libxml2-dev
+symbolize_names
+Date.parse('31-12-2010')
