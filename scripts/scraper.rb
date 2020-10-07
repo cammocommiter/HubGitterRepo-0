@@ -1,17 +1,3 @@
-{{ site.time | date: '%y' }}
-
-class Hello
-  def create_some_state
-    @hello = "hello"
-  end
-end
-
-h = Hello.new
-p h.instance_variables 
-
-h.create_some_state
-p h.instance_variables
-
-# Output
-[]
-["@hello"]
+unicorn-rails
+export http_proxy=http://user:password@host:port
+export HTTP_PROXY=$http_proxy
