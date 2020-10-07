@@ -1,7 +1,10 @@
->> hash = { "a"=>["a", "b", "c"], "b"=>["b", "c"] }
-=> {"a"=>["a", "b", "c"], "b"=>["b", "c"]}
->> hash.values
-=> [["a", "b", "c"], ["b", "c"]]
-
-Time.now.strftime("%d/%m/%Y %H:%M")
-#=> "14/09/2011 14:09"
+&.
+begin  # "try" block
+    puts 'I am before the raise.'  
+    raise 'An error has occurred.' # optionally: `raise Exception, "message"`
+    puts 'I am after the raise.'   # won't be executed
+rescue # optionally: `rescue Exception => ex`
+    puts 'I am rescued.'
+ensure # will always get executed
+    puts 'Always gets executed.'
+end 
