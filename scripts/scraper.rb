@@ -1,3 +1,5 @@
-unicorn-rails
-export http_proxy=http://user:password@host:port
-export HTTP_PROXY=$http_proxy
+$1
+uri = URI.parse("https://example.com/some/path")
+http = Net::HTTP.new(uri.host, uri.port)
+http.use_ssl = true
+@data = http.get(uri.request_uri)
