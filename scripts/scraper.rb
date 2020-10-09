@@ -1,3 +1,7 @@
-cats.each { |cat| cat.name }
+#!/usr/bin/env ruby
 
-“data-no-turbolink” to the <body> tag
+require 'fileutils'
+
+FileUtils.mv('/tmp/your_file', '/opt/new/location/your_file')
+
+hash = {:item1 => 1}
