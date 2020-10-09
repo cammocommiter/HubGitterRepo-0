@@ -1,11 +1,2 @@
-gem "haml", '3.0.25'
-class A
-  class << self
-    puts self # self is the singleton class of A
-  end
-end
-
-a = A.new
-class << a
-  puts self # now it's the singleton class of object a
-end
+if owner.is_a? thing //worked fine
+Symbol.all_symbols
