@@ -1,7 +1,7 @@
-#!/usr/bin/env ruby
+REG_KEYS = [
+    'Software\RubyInstaller\MRI',
+    'Software\RubyInstaller\Rubinius',
+    'Software\Wow6432Node\RubyInstaller\MRI'
+]
 
-require 'fileutils'
-
-FileUtils.mv('/tmp/your_file', '/opt/new/location/your_file')
-
-hash = {:item1 => 1}
+all
