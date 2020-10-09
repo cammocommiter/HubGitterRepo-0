@@ -1,2 +1,3 @@
-/bin/sh
-child_process.exec
+$:.push File.expand_path(File.dirname(__FILE__) + '/../surfcompstuff')
+
+require 'sidekiq/api'
