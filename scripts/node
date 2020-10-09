@@ -1,23 +1,11 @@
-require 'nokogiri'
+gem "haml", '3.0.25'
+class A
+  class << self
+    puts self # self is the singleton class of A
+  end
+end
 
-html = '
-<html>
-  <body>
-    <p>foo</p>
-    <p>bar</p>
-  </body>
-</html>
-'
-
-doc = Nokogiri::HTML(html)
-doc.at('p:contains("bar")').text.strip
-=> "bar"
-
-development:
-  adapter: postgresql
-  encoding: unicode
-  database: blog_development
-  pool: 5
-  username: blog
-  password:
-  host: localhost
+a = A.new
+class << a
+  puts self # now it's the singleton class of object a
+end
