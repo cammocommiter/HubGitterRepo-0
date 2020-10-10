@@ -1,7 +1,2 @@
-Timecop.travel(6.days.ago) do
-  @model = TimeSensitiveMode.new
-end
-assert @model.times_up!
-
-sudo xcode-select --install
-sudo xcodebuild -license accept
++=
+config.gem 'paperclip'
