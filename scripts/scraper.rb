@@ -1,2 +1,6 @@
-public
-Struct.new(:x).new(42) == Struct.new(:x).new(42)
+CSV.foreach('my_file.csv', :headers => true) do |row|
+  puts row['foo'] # prints 1 the 1st time, "blah" 2nd time, etc
+  puts row['bar'] # prints 2 the first time, 7 the 2nd time, etc
+end
+
+Class
