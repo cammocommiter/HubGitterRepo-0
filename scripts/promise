@@ -1,2 +1,9 @@
-Math.gamma
-rails_admin
+url    = 'http://www.example.com?id=4&empid=6'
+uri    = URI.parse(url)
+params = CGI.parse(uri.query)
+# params is now {"id"=>["4"], "empid"=>["6"]}
+
+id     = params['id'].first
+# id is now "4"
+
+gem uninstall nokogiri
