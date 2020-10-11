@@ -1,12 +1,5 @@
-class WeblogController < ActionController::Base
-  def index
-    @posts = Post.find :all
-    respond_to do |format|
-      format.html
-      format.xml { render :xml => @posts.to_xml }
-      format.rss { render :action => "feed.rxml" }
-    end
-  end
-end
+a = [1,2,3,4,5]
+a.include?(3)   # => true
+a.include?(9)   # => false
 
-(2...n).all?
+respond_to
