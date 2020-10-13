@@ -1,14 +1,12 @@
-require 'rubygems'
+result.class.name
 
-name = /^/i
-dep = Gem::Dependency.new(name, Gem::Requirement.default)
-specs = Gem.source_index.search(dep)
-puts specs[0..5].map{ |s| "#{s.name} #{s.version}" }
-# >> Platform 0.4.0
-# >> abstract 1.0.0
-# >> actionmailer 3.0.5
-# >> actionpack 3.0.5
-# >> activemodel 3.0.5
-# >> activerecord 3.0.5
-
-options
+car = {:make => "bmw", :year => "2003"}
+# => {:make=>"bmw", :year=>"2003"}
+car.to_json
+# NoMethodError: undefined method `to_json' for {:make=>"bmw", :year=>"2003"}:Hash
+#   from (irb):11
+#   from /usr/bin/irb:12:in `<main>'
+require 'json'
+# => true
+car.to_json
+# => "{"make":"bmw","year":"2003"}"
