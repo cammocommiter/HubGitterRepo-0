@@ -1,6 +1,7 @@
-CSV.foreach('my_file.csv', :headers => true) do |row|
-  puts row['foo'] # prints 1 the 1st time, "blah" 2nd time, etc
-  puts row['bar'] # prints 2 the first time, 7 the 2nd time, etc
-end
+word = "Now is the,time for'all good people"
+word.split(/[\s,']/)
+ => ["Now", "is", "the", "time", "for", "all", "good", "people"] 
 
-Class
+if __FILE__ == $0
+  # this library may be run as a standalone script
+end
