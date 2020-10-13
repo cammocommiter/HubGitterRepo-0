@@ -1,5 +1,5 @@
-a = [1,2,3,4,5]
-a.include?(3)   # => true
-a.include?(9)   # => false
+def self.checkPings
+  # A static method
+end
 
-respond_to
+else
