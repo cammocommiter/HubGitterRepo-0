@@ -1,9 +1,9 @@
-GET    /items        #=> index
-GET    /items/1      #=> show
-GET    /items/new    #=> new
-GET    /items/1/edit #=> edit
-PUT    /items/1      #=> update
-POST   /items        #=> create
-DELETE /items/1      #=> destroy
+Gemfile.lock
+class Object
+  def all_equals(o)
+    ops = [:==, :===, :eql?, :equal?]
+    Hash[ops.map(&:to_s).zip(ops.map {|s| send(s, o) })]
+  end
+end
 
-rake make
+"a".all_equals "a" # => {"=="=>true, "==="=>true, "eql?"=>true, "equal?"=>false}
