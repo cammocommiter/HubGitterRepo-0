@@ -1,2 +1,2 @@
-Word
-{ :a => 'a', :b => ('b' if cond) }.delete_if{ |k,v| v.nil? }
+Time.parse(time)
+render ... :location => @user
