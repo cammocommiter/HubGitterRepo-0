@@ -1,3 +1,4 @@
-//= require jquery_ujs
-
-validates :email, format: { with: URI::MailTo::EMAIL_REGEXP } 
+.inspect
+def largest_hash_key(hash)
+  hash.max_by{|k,v| v}
+end
