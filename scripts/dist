@@ -1,14 +1,8 @@
-class Test1
-  def meth1
-    def meth2
-      puts "Yay"
-    end
-    meth2
-  end
+begin
+  this_will_fail!
+rescue Failure => error
+  log.error error.message
+  raise
 end
 
-Test1.new.meth1
-
-require 'date'
-now = Date.today
-ninety_days_ago = (now - 90)
+self
