@@ -1,2 +1,7 @@
-sudo port install curl-ca-bundle
-change_column :users, :admin, :boolean, :default => false
+$ brew install qt@5.5
+
+require "csv"
+CSV.open("file.csv", "wb") do |csv|
+  csv << ["animal", "count", "price"]
+  csv << ["fox", "1", "$90.00"]
+end
