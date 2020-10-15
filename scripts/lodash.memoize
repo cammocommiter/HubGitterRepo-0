@@ -1,16 +1,5 @@
-Hash[ keys.zip(values) ]
-class AbstractThing
-  MESS = "SYSTEM ERROR: method missing"
-
-  def method_one; raise MESS; end
-  def method_two; raise MESS; end
+Array#sample
+class Person
+  attr_accessor :age
+  ...
 end
-
-class ConcreteThing < AbstractThing
-  def method_one
-     puts "hi"
-  end
-end
-
-a = ConcreteThing.new
-a.method_two # -> raises error.
