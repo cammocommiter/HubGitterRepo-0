@@ -1,3 +1,6 @@
-Aptana_Studio_3_Setup_3.6.1 /passive /norestart
+/usr/local
+# rails < 3.1
+new_record = old_record.clone
 
-@foo ||= ...
+#rails >= 3.1
+new_record = old_record.dup
