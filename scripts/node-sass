@@ -1,2 +1,6 @@
-%w(foo bar)
-rvm implode
+gem install localtunnel
+localtunnel 3000
+
+class User < ActiveRecord::Base
+  enum status: [ :admin, :user, :banned ]
+end
