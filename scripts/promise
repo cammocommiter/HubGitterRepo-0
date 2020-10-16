@@ -1,2 +1,2 @@
-extend
-update_attribute
+brew install ruby
+/bin/sh
