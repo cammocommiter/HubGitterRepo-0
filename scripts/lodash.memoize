@@ -1,2 +1,2 @@
-Fixnum
-User
+flash[:success]
+self.attribute
