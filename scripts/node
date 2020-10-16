@@ -1,9 +1,12 @@
-def this_method_takes_a_block
-  yield(5)
+class A
+  class << self
+    puts self # self is the singleton class of A
+  end
 end
 
-this_method_takes_a_block do |num|
-  puts num
+a = A.new
+class << a
+  puts self # now it's the singleton class of object a
 end
 
-public
+@emails.join(",")
