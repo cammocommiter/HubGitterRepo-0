@@ -1,3 +1,2 @@
-raise new.TriangleError
-
-1.21.15
+extend
+update_attribute
