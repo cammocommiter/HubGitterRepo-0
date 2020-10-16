@@ -1,7 +1,2 @@
-$ brew install qt@5.5
-
-require "csv"
-CSV.open("file.csv", "wb") do |csv|
-  csv << ["animal", "count", "price"]
-  csv << ["fox", "1", "$90.00"]
-end
+Arrays
+IN
