@@ -1,2 +1,2 @@
-Arrays
-IN
+sprintf '%02d', n
+:param
