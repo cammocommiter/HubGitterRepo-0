@@ -1,2 +1,3 @@
-public
-imagemagick
+raise new.TriangleError
+
+1.21.15
