@@ -1,2 +1,2 @@
-flash[:success]
-self.attribute
+send
+foo
