@@ -1,2 +1,2 @@
-sprintf '%02d', n
-:param
+if
+['one','two','three'].take(2)
