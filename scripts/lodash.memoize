@@ -1,2 +1,2 @@
-&
-next
+reject
+a.gsub!(/[^0-9A-Za-z]/, '')
