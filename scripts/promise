@@ -1,2 +1,5 @@
-brew install ruby
-/bin/sh
+def some_func(variable = nil)
+  ...
+end
+
+deep_symbolize_keys
