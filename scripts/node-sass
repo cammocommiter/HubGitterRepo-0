@@ -1,3 +1,2 @@
-head :no_content
-
-Matrix
+script/console --help
+[*foo]
