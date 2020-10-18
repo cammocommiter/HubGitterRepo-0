@@ -1,6 +1,3 @@
-puts "Hello World"
+objects.sort_by {|obj| obj.attribute}
 
-h = {:a => 1, :b => 2.2}
-h.each_with_index do |(k, v), i|
-  p k, v, i
-end
+http://invalid##host.com
