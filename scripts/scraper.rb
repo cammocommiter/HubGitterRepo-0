@@ -1,2 +1,3 @@
-if
-['one','two','three'].take(2)
+Model.find(:all, :order => ...)
+
+a.map {|x| x[/\d+/]}
