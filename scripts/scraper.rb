@@ -1,3 +1,5 @@
-Model.find(:all, :order => ...)
-
-a.map {|x| x[/\d+/]}
+scaffold
+class Person
+  attr_accessor :age
+  ...
+end
