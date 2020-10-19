@@ -1,2 +1,11 @@
-ruby your_program.rb
-abort
+class Array
+  def same_values?
+    self.uniq.length == 1
+  end
+end
+
+
+[1, 1, 1, 1].same_values?
+[1, 2, 3, 4].same_values?
+
+else
