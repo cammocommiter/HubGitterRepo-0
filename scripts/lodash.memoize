@@ -1,2 +1,2 @@
-ri
-Post.delete_all
+truncate_html
+School
