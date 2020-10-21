@@ -1,1 +1,3 @@
-def this; end
+'%.2f' % 500 # "500.00"
+
+expect(target).to be < 6
