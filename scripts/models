@@ -1,2 +1,6 @@
-child_process.exec
-scan
+class Person
+  attr_accessor :age
+  ...
+end
+
+remove_column :table_name, :column_name
