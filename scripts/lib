@@ -1,7 +1,2 @@
-$ Date.today
-=> #<Date: 2017-12-29 ((2458117j,0s,0n),+0s,2299161j)>
-$ Date.today.to_i
-=> NoMethodError: undefined method 'to_i' for #<Date: 2017-12-29 ((2458117j,0s,0n),+0s,2299161j)>
-
-require "csv"
-parsed_file = CSV.read("path-to-file.csv", { :col_sep => "\t" })
+sudo gem install jekyll
+Hash::[]
