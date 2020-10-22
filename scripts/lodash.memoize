@@ -1,3 +1,3 @@
-uniq
-$ gem uninstall libv8
-$ gem install therubyracer
+time = Time.now.getutc
+
+URI.escape
