@@ -1,3 +1,3 @@
-p [1,2,3].map(&method(:inc))
+gem install net-ssh -v 2.9.3.beta1
 
-git://github.com/Dakuan/client_side_validations.git
+sanitize
