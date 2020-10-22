@@ -1,2 +1,5 @@
-ruby 2.3.3p222 (2016-11-21 revision 56859) [x86_64-darwin16]
-brew style
+gem install rubygems-update
+update_rubygems
+gem update --system
+
+rails g migration change_date_format_in_my_table
