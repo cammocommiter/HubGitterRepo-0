@@ -1,2 +1,3 @@
-truncate_html
-School
+uniq
+$ gem uninstall libv8
+$ gem install therubyracer
