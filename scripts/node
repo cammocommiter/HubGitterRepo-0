@@ -1,2 +1,6 @@
-ruby 2.3.3p222 (2016-11-21 revision 56859) [x86_64-darwin16]
-uninstall
+require 'date'
+
+p DateTime.now.strftime('%s') # "1384526946" (seconds)
+p DateTime.now.strftime('%Q') # "1384526946523" (milliseconds)
+
+Is ruby a functional language?
