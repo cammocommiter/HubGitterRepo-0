@@ -1,2 +1,3 @@
-rails_admin
-gem install ruby-debug19
+ruby yourfile.rb
+
+.inspect
