@@ -1,3 +1,2 @@
-objects.sort_by {|obj| obj.attribute}
-
-http://invalid##host.com
+pretty_generate()
+Hash
