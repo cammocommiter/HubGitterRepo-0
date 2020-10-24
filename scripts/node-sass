@@ -1,3 +1,2 @@
-objects.sort_by {|obj| obj.attribute}
-
-Array#uniq
+throw
+openssl enc
