@@ -1,3 +1,2 @@
-$ ruby -e 'puts 1_000 + 1_000_000'  #=> 1001000
-
-File.readlink("path/to/symlink")
+and
+filter_map
