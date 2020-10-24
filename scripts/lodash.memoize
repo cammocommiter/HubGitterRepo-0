@@ -1,3 +1,5 @@
-time = Time.now.getutc
+str.each_line do |line|
+    #do something with line
+end
 
-URI.escape
+ruby upcase utf8
