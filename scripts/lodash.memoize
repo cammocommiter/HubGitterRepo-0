@@ -1,5 +1,5 @@
-str.each_line do |line|
-    #do something with line
-end
+User.new({:email => "guy@gmail.com", :roles => ["admin"], :password => "111111", :password_confirmation => "111111" }).save(false)
 
-ruby upcase utf8
+require 'json'
+value = '{"val":"test","val1":"test1","val2":"test2"}'
+puts JSON.parse(value) # => {"val"=>"test","val1"=>"test1","val2"=>"test2"}
