@@ -1,3 +1,2 @@
-validates_format_of :email,:with => /\A[^@\s]+@([^@\s]+\.)+[^@\s]+\z/
-
-$ ruby -e 'puts 1_000 + 1_000_000'  #=> 1001000
+~/.gemrc
+scaffold
