@@ -1,2 +1,4 @@
-sudo gem install jekyll
-Hash::[]
+arr = ['x', 'o', 'x', '.', '.', 'o', 'x']
+p arr.each_index.select{|i| arr[i] == 'x'} # =>[0, 2, 6]
+
+inspect
