@@ -1,3 +1,7 @@
-Paperclip version 4.0
-  :peanut   :butter   :and   :jelly
-0         1         2      3        4
+h = Hash[a.zip b] # => {:baz=>1, :bof=>2, :bar=>"world", :foo=>"hello"}
+
+def some_method
+  redirect_to :back
+rescue ActionController::RedirectBackError
+  redirect_to root_path
+end
