@@ -1,3 +1,3 @@
-ruby yourfile.rb
+ $ gem install rerun
 
-.inspect
+=~
