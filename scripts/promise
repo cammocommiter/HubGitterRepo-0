@@ -1,2 +1,3 @@
-and
-filter_map
+change_column :users, :admin, :boolean, :default => false
+
+my_hash.transform_keys(&:to_sym)
