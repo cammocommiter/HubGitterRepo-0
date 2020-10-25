@@ -1,5 +1,4 @@
-User.new({:email => "guy@gmail.com", :roles => ["admin"], :password => "111111", :password_confirmation => "111111" }).save(false)
-
-require 'json'
-value = '{"val":"test","val1":"test1","val2":"test2"}'
-puts JSON.parse(value) # => {"val"=>"test","val1"=>"test1","val2"=>"test2"}
+g
+require 'rest_client'
+RestClient.post('http://localhost:3000/foo', 
+  :name_of_file_param => File.new('/path/to/file'))
