@@ -1,2 +1,2 @@
-require 'activesupport'
-"A".ord #=> 65
+chars
+w+
