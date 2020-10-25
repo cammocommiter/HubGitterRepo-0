@@ -1,2 +1,2 @@
-throw
-openssl enc
+.after
+root :to => "pages#show", :id => '1'
