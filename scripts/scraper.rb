@@ -1,2 +1,5 @@
-/generators/clearance_features/templates/features/
-gem 'unf' 
+rescue Exception => e
+  # ...
+end
+
+parameters
