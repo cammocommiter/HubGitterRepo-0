@@ -1,5 +1,13 @@
-Given /^I login successfully$/
-    step "I login with valid credentials" 
-end 
+Dir['*.rb'] #basic globs
+Dir['**/*.rb'] #** == any depth of directory, including current dir.
+#=> array of relative names
 
-puts "Melanie is a noob".count('a')  #=> 2
+File.expand_path('~/file.txt') #=> "/User/mat/file.txt"
+File.dirname('dir/file.txt') #=> 'dir'
+File.basename('dir/file.txt') #=> 'file.txt'
+File.join('a', 'bunch', 'of', 'strings') #=> 'a/bunch/of/strings'
+
+__FILE__ #=> the name of the current file
+
+sudo apt-get --purge remove ruby-rvm
+sudo rm -rf /usr/share/ruby-rvm /etc/rvmrc /etc/profile.d/rvm.sh
