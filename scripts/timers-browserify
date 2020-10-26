@@ -1,7 +1,2 @@
-h = Hash[a.zip b] # => {:baz=>1, :bof=>2, :bar=>"world", :foo=>"hello"}
-
-def some_method
-  redirect_to :back
-rescue ActionController::RedirectBackError
-  redirect_to root_path
-end
+map
+p foo
