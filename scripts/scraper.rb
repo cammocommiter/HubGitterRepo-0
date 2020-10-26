@@ -1,5 +1,3 @@
-rescue Exception => e
-  # ...
-end
+['12','34','35','231'].join(', ')
 
-parameters
+cd C:\Ruby193\DevKit
