@@ -1,1 +1,2 @@
-def this; end
+request.referer
+CONST = 2 unless defined? CONST
