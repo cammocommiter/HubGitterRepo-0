@@ -1,3 +1,7 @@
- $ gem install rerun
-
-=~
+rails runner
+require 'date'
+begin
+   Date.parse("31-02-2010")
+rescue ArgumentError
+   # handle invalid date
+end
