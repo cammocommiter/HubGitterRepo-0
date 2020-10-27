@@ -1,3 +1,12 @@
-['12','34','35','231'].join(', ')
+#1 query
+Dog.find(:all).each do |dog|
+   #N queries
+   dog.owner.siblings.each do |sibling|
+      #N queries per above N query!!
+      sibling.pets.each do |pet|
+         #Do something here
+      end
+   end
+end
 
-cd C:\Ruby193\DevKit
+elsif
