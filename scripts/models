@@ -1,2 +1,2 @@
-nil
-(2...n).all?
+redirect_to :back
+ruby
