@@ -1,2 +1,5 @@
-map
-p foo
+rails destroy controller lalala
+rails destroy model yadayada
+rails destroy scaffold hohoho
+
+render_404
