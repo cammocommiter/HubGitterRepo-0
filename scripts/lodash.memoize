@@ -1,4 +1,3 @@
-g
-require 'rest_client'
-RestClient.post('http://localhost:3000/foo', 
-  :name_of_file_param => File.new('/path/to/file'))
+$ gem install rmagick
+
+t = Time.at(i)
