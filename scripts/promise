@@ -1,2 +1,4 @@
-break
-User
+  adapter: postgresql
+
+rvm install 2.2.5
+rvm use 2.2.5
