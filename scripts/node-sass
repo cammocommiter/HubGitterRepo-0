@@ -1,2 +1,3 @@
-echo $GEM_HOME
-5.times { send_sms_to("xxx") }
+ALTER TABLE your_database_name.your_table CONVERT TO CHARACTER SET utf8
+
+File.rename(f, folder_path + "/" + filename.capitalize + File.extname(f))
