@@ -1,3 +1,6 @@
-echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+def some_func(variable = nil)
+  ...
+end
 
-Gemfile
+s="this is a string with is thrice"
+s.scan(/is/).count  # => 3
