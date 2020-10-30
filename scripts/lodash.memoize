@@ -1,3 +1,6 @@
-$ gem install rmagick
+class Car < ActiveRecord::Base
+   belongs_to :vendor
+   belongs_to :company, :class_name => :Vendor,:foreign_key => "vendor_id"
+end
 
-t = Time.at(i)
+data.each_slice(3) {|slice| ... }
