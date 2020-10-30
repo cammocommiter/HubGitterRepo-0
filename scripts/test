@@ -1,13 +1,2 @@
-class B < A
-
-  alias :super_a :a
-
-  def a
-    b()
-  end
-  def b
-    super_a()
-  end
-end  
-
-all
+SCREAMING_SNAKE_CASE
+sudo apt-get install mysql-client libmysqlclient-dev
