@@ -1,3 +1,2 @@
-Date.yesterday
-
-doc
+echo $GEM_HOME
+5.times { send_sms_to("xxx") }
