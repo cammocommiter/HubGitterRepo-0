@@ -1,3 +1,2 @@
-link = %q[<a href="javascript:method('call')">link</a>]
-
-link_to_function
+next
+Hash#slice
