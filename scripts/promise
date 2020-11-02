@@ -1,2 +1,4 @@
-//title
-.
+>> [65,66,67,68,69].pack('c*')
+=>  "ABCDE"
+
+SCREAMING_SNAKE_CASE
