@@ -1,4 +1,14 @@
->> [65,66,67,68,69].pack('c*')
-=>  "ABCDE"
+class ApplicationController < ActionController::Base
+  before_filter :authenticate
 
-SCREAMING_SNAKE_CASE
+  def authenticate
+    # How do we know which controller and action was targetted?
+    params[:controller]
+    params[:action]
+    # OR
+    controller.controller_name
+    controller.action_name    
+  end
+end
+
+__FILE__
