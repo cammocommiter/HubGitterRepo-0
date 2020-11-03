@@ -1,2 +1,14 @@
-split
-h.sort_by {|k,v| v}.reverse
+require 'ostruct'
+tempData = {"a" => 100, "here" => 200, "c" => "hello"}
+os = OpenStruct.new tempData
+os.a #=> 100
+os.here #=> 200
+
+# bad
+do_something if !some_condition
+
+# bad
+do_something if not some_condition
+
+# good
+do_something unless some_condition
