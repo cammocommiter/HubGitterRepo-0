@@ -1,3 +1,11 @@
-file_contents = CSV.read("csvfile.csv", col_sep: "$", encoding: "ISO8859-1")
+module Enumerable
+  def stable_sort
+    sort_by.with_index { |x, idx| [x, idx] }
+  end
 
-config.sass.preferred_syntax = :sass
+  def stable_sort_by
+    sort_by.with_index { |x, idx| [yield(x), idx] }
+  end
+end
+
+describe
