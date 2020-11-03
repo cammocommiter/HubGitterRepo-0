@@ -1,6 +1,2 @@
-irb
-class String
-  def initial
-    self[0,1]
-  end
-end
+content_for?
+Fixnum
