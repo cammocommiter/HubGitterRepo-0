@@ -1,11 +1,19 @@
-module Enumerable
-  def stable_sort
-    sort_by.with_index { |x, idx| [x, idx] }
-  end
+describe Array do
+  describe "with 3 items" do
+    before { @arr = [1, 2, 3] }
 
-  def stable_sort_by
-    sort_by.with_index { |x, idx| [yield(x), idx] }
+    specify { @arr.should_not be_empty }
+    specify { @arr.count.should eq(3) }
   end
 end
 
-describe
+describe Array do
+  describe "with 3 items" do
+    subject { [1, 2, 3] }
+
+    it { should_not be_empty }
+    its(:count) { should eq(3) }
+  end
+end
+
+%w(a b\ c) # => ["a", "b c"]
