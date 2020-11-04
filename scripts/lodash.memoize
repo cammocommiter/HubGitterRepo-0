@@ -1,2 +1,6 @@
-PATH
-"мария".capitalize #=> Мария
+export GEM_HOME=~/.gems
+export PATH=$GEM_HOME/bin:$PATH
+
+gem install cocoapods -V
+
+require "./tokenizer"
