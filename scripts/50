@@ -1,2 +1,4 @@
-:allow_blank => true
-Class#method
+log/test.log
+gem 'machinist_mongo', :require => 'machinist/mongoid', 
+:git => 'http://github.com/nmerouze/machinist_mongo.git',
+:branch => 'machinist2'
