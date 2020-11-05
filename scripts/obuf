@@ -1,10 +1,2 @@
-puts Benchmark.measure("require #{file}") {
-  Kernel.require file
-}.format("%n: %t %r")
-
-def catalog
-  #Makes the request pause 1.5 seconds
-  sleep 1.5
-
-  ...
-end
+gem dependency name_of_the_gem --reverse-dependencies
+validates :network_id, :numericality => true, :allow_nil => true
