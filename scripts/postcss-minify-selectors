@@ -1,2 +1,3 @@
-:delete_all
-CHANGELOG
+str_array = int_array.map(&:to_s)
+
+<whatever>-dev
