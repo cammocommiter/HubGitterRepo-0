@@ -1,2 +1,6 @@
-String#split
-assert_raises
+>> hash = { "a"=>["a", "b", "c"], "b"=>["b", "c"] }
+=> {"a"=>["a", "b", "c"], "b"=>["b", "c"]}
+>> hash.values
+=> [["a", "b", "c"], ["b", "c"]]
+
+Gem::Version.new('0.4.1') > Gem::Version.new('0.10.1')
