@@ -1,2 +1,3 @@
-@post = Post.order("created_at").last
-with_indifferent_access
+scope :desc, order("events.event_at DESC")
+
+array.any?{ |s| s.casecmp(mystr)==0 }
