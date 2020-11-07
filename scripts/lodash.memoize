@@ -1,6 +1,5 @@
-export GEM_HOME=~/.gems
-export PATH=$GEM_HOME/bin:$PATH
+def plus_one_to_y(x)
+    @y = x + 1
+end
 
-gem install cocoapods -V
-
-require "./tokenizer"
+<%= f.hidden_field :service, :value => "test" %>
