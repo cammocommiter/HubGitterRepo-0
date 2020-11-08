@@ -1,3 +1,2 @@
-str_array = int_array.map(&:to_s)
-
-<whatever>-dev
+puts
+r:bom|utf-8
