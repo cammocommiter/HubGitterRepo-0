@@ -1,12 +1,6 @@
-h = {:a => 1, :b => 2.2}
-h.each_with_index do |(k, v), i|
-  p k, v, i
-end
+list.group_by(&:capitalize).map {|k,v| [k, v.length]}
+#=> [["Master of puppets", 3], ["Enter sandman", 2], ["Nothing else matters", 1]]
 
-class SillyHash < Hash
-
-  def [](key)
-    super.reverse
+  task :my_task do
+    run "my_command"
   end
-
-end
