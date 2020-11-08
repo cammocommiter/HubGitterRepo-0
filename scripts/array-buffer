@@ -1,2 +1,3 @@
-user.present?
-ln -s /usr/local/opt/readline/lib/libreadline.7.0.dylib /usr/local/opt/readline/lib/libreadline.6.dylib
+h = Hash[a.zip b] # => {:baz=>1, :bof=>2, :bar=>"world", :foo=>"hello"}
+
+raise
