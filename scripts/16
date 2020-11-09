@@ -1,19 +1,26 @@
-describe Array do
-  describe "with 3 items" do
-    before { @arr = [1, 2, 3] }
+BlueCloth: 13.029987s total time, 00.130300s average
+   Maruku: 08.424132s total time, 00.084241s average
+RDiscount: 00.082019s total time, 00.000820s average
 
-    specify { @arr.should_not be_empty }
-    specify { @arr.count.should eq(3) }
+# As written by @Justice
+class Person
+  def initialize(name, lastName = nil)
+    name = name + " " + lastName unless lastName.nil?
+    @name = name
   end
 end
 
-describe Array do
-  describe "with 3 items" do
-    subject { [1, 2, 3] }
 
-    it { should_not be_empty }
-    its(:count) { should eq(3) }
+class Person
+  def initialize(args)
+    name = args["name"]
+    name = name + " " + args["lastName"] unless args["lastName"].nil?
+    @name = name
   end
 end
 
-%w(a b\ c) # => ["a", "b c"]
+class Person
+  def initialize(*args)
+    #Process args (An array)
+  end
+end
