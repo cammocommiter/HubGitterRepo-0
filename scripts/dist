@@ -1,12 +1,23 @@
-require 'ostruct'
+module Enumerable
 
-person = OpenStruct.new
-person.name    = "John Smith"
-person.age     = 70
-person.pension = 300
+    def sum
+      self.inject(0){|accum, i| accum + i }
+    end
 
-puts person.name     # -> "John Smith"
-puts person.age      # -> 70
-puts person.address  # -> nil
+    def mean
+      self.sum/self.length.to_f
+    end
 
-require
+    def sample_variance
+      m = self.mean
+      sum = self.inject(0){|accum, i| accum +(i-m)**2 }
+      sum/(self.length - 1).to_f
+    end
+
+    def standard_deviation
+      Math.sqrt(self.sample_variance)
+    end
+
+end 
+
+'hello' =~ /^h/ # => 0
