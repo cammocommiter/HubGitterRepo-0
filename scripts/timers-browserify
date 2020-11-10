@@ -1,2 +1,4 @@
-gem install bundle
-r:bom|utf-8
+time = Time.now.getutc
+
+# application.rb
+config.time_zone = 'Eastern Time (US & Canada)'
