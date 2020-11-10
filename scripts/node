@@ -1,2 +1,2 @@
-class << self
-str.split(' ', 2)
+yield
+hash = JSON.parse string
