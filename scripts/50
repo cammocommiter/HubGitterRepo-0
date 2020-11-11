@@ -1,4 +1,11 @@
-log/test.log
-gem 'machinist_mongo', :require => 'machinist/mongoid', 
-:git => 'http://github.com/nmerouze/machinist_mongo.git',
-:branch => 'machinist2'
+RUBY_VERSION
+
+class Booking < ActiveRecord::Base
+  has_many   :booking_payments
+  ....
+  def destroy
+    raise "Cannot delete booking with payments" unless booking_payments.count == 0
+    # ... ok, go ahead and destroy
+    super
+  end
+end
