@@ -1,2 +1,2 @@
-singleton_class
-openssl enc
+config.cache_classes
+to_ary
