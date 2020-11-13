@@ -1,2 +1,3 @@
-super()
-a data-title="help" data-content="foo"
+random_boolean = [true, false].sample
+
+\curl -L https://get.rvm.io | bash -s stable --ruby
