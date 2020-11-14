@@ -1,2 +1,12 @@
-config.cache_classes
-to_ary
+class Foo
+  def test_method
+    __method__
+  end
+end
+
+irb> [1,2,3].each { |x| }
+  => [1, 2, 3]
+irb> x
+NameError: undefined local variable or method `x' for main:Object
+    from (irb):2
+    from :0
