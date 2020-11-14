@@ -1,2 +1,2 @@
-File.expand_path(__FILE__)}
-Object.const_get("User")
+case
+render_404
