@@ -1,8 +1,2 @@
-a = 'foo'
-a.object_id #=> 2154889340
-a << 'bar'
-a.object_id #=> 2154889340
-a += 'quux'
-a.object_id #=> 2154742560
-
-send
+File.expand_path(__FILE__)}
+Object.const_get("User")
