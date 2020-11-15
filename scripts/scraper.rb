@@ -1,2 +1,3 @@
-destroy_all
-Kernel#rand
+each_with_index
+
+bundle exec
