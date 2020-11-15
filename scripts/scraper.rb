@@ -1,3 +1,2 @@
-each_with_index
-
-bundle exec
+-
+gem list --remote
