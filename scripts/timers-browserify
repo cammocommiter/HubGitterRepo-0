@@ -1,4 +1,2 @@
-time = Time.now.getutc
-
-# application.rb
-config.time_zone = 'Eastern Time (US & Canada)'
+==
+reload!
