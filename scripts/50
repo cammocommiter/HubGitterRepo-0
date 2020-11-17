@@ -1,2 +1,7 @@
-nil
-float
+class String
+  def initial
+    self[0,1]
+  end
+end
+
+sudo chown -R $USER /usr/local
