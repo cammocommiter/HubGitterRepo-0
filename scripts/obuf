@@ -1,2 +1,2 @@
-~/.gemrc
- $ gem install rerun
+=
+helper_method
