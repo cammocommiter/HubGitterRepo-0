@@ -1,2 +1,3 @@
-#each
-<%= stylesheet_link_tag "filename" %>
+flash[:notice] = %Q[Created job number <a href="/jobs/list?job=#{update.id}">#{update.id}</a>]
+
+add-on
