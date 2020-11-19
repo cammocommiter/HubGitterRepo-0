@@ -1,4 +1,23 @@
-variableName[/regular expression/]
-h1 = {:a => :A, :b => :B, :c => :C, :d => :D}
-h2 = h1.select {|key, value| [:b, :d, :e, :f].include?(key) } # => {:b=>:B, :d=>:D} 
-h1 = Hash[h1.to_a - h2.to_a] # => {:a=>:A, :c=>:C} 
+lam = lambda { puts "Hello world"}
+lam.class
+
+#output is
+=> Proc
+
+1.upto(10) do |i|
+  puts i
+end
+
+>> 1.upto(10) do |i|
+ >     puts i
+|    end #=> 1
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
