@@ -1,4 +1,2 @@
-# application.rb
-config.time_zone = 'Eastern Time (US & Canada)'
-
-target: :_blank
+"\r\n"
+rails g migration change_date_format_in_my_table
