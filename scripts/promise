@@ -1,3 +1,2 @@
-c = a.merge(b)
-
-&.
+'-- \n'
+params[:uploaded_file]
