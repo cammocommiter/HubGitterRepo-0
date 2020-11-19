@@ -1,2 +1,4 @@
-"\r\n"
-rails g migration change_date_format_in_my_table
+fail
+require 'date'
+now = Date.today
+ninety_days_ago = (now - 90)
