@@ -1,3 +1,2 @@
-flash[:notice] = %Q[Created job number <a href="/jobs/list?job=#{update.id}">#{update.id}</a>]
-
-add-on
+Enumerator#with_index
+sudo xcode-select --install
