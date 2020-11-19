@@ -1,1 +1,2 @@
-def this; end
+# encoding: utf-8
+file=File.open("input_file", "r:ISO-8859-1")
