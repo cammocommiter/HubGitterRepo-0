@@ -1,2 +1,9 @@
-yield
-hash = JSON.parse string
+RUBY_VERSION
+
+h.each do |key, value|
+  puts key
+  value.each do |k,v|
+    puts k
+    puts v
+  end
+end
