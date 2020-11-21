@@ -1,4 +1,2 @@
-fail
-require 'date'
-now = Date.today
-ninety_days_ago = (now - 90)
+.gem
+Base64.strict_encode64()
