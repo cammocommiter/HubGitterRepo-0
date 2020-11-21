@@ -1,2 +1,5 @@
-'-- \n'
-params[:uploaded_file]
+if __FILE__ == $0
+  # this library may be run as a standalone script
+end
+
+File.expand_path
