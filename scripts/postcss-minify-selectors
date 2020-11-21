@@ -1,22 +1,5 @@
-h = {:a => 1, :b => 2.2}
-h.each_with_index do |(k, v), i|
-  p k, v, i
-end
+$ sudo apt-get install postgresql
+$ sudo apt-get install libpq-dev
 
-1.upto(10) do |i|
-  puts i
-end
-
->> 1.upto(10) do |i|
- >     puts i
-|    end #=> 1
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
+[*1..10]
+#=> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
