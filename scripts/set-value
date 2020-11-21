@@ -1,2 +1,7 @@
-# encoding: utf-8
-file=File.open("input_file", "r:ISO-8859-1")
+$ gem install eventmachine -- --with-cppflags=-I/usr/local/opt/openssl/include                                                                                                             
+Building native extensions with: '--with-cppflags=-I/usr/local/opt/openssl/include'
+This could take a while...
+Successfully installed eventmachine-1.0.8
+1 gem installed
+
+sudo port install curl-ca-bundle
