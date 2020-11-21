@@ -1,1 +1,2 @@
-def this; end
+string.to_sym
+echo $GEM_HOME
