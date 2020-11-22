@@ -1,2 +1,4 @@
-db:create
-child_process.exec
+yum -y install gcc mysql-devel ruby-devel rubygems
+gem install -y mysql -- --with-mysql-config=/usr/bin/mysql_config
+
+curl -sSL https://raw.githubusercontent.com/rvm/rvm/master/binscripts/rvm-installer | bash -s stable
