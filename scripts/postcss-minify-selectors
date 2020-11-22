@@ -1,5 +1,12 @@
-$ sudo apt-get install postgresql
-$ sudo apt-get install libpq-dev
+  context "if eligible" do
+    before { allow(subject).to receive(:eligible?).and_return(true) }
+    it { should validate_presence_of(:name) }
+  end
 
-[*1..10]
-#=> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  context "if ineligible" do
+    before { allow(subject).to receive(:eligible?).and_return(false) }
+    it { should_not validate_presence_of(:name) }
+  end
+
+index(substring [, offset]) → fixnum or nil
+index(regexp [, offset]) → fixnum or nil
