@@ -1,9 +1,8 @@
-RUBY_VERSION
+irb> [1,2,3].each { |x| }
+  => [1, 2, 3]
+irb> x
+NameError: undefined local variable or method `x' for main:Object
+    from (irb):2
+    from :0
 
-h.each do |key, value|
-  puts key
-  value.each do |k,v|
-    puts k
-    puts v
-  end
-end
+any?
