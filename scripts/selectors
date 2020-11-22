@@ -1,4 +1,7 @@
-yum -y install gcc mysql-devel ruby-devel rubygems
-gem install -y mysql -- --with-mysql-config=/usr/bin/mysql_config
+def check_box(method, options = {}, checked_value = "1", unchecked_value = "0")
 
-curl -sSL https://raw.githubusercontent.com/rvm/rvm/master/binscripts/rvm-installer | bash -s stable
+require "csv"
+CSV.open("file.csv", "wb") do |csv|
+  csv << ["animal", "count", "price"]
+  csv << ["fox", "1", "$90.00"]
+end
