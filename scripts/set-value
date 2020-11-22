@@ -1,7 +1,16 @@
-$ gem install eventmachine -- --with-cppflags=-I/usr/local/opt/openssl/include                                                                                                             
-Building native extensions with: '--with-cppflags=-I/usr/local/opt/openssl/include'
-This could take a while...
-Successfully installed eventmachine-1.0.8
-1 gem installed
+xcode-select --install
 
-sudo port install curl-ca-bundle
+class Foo
+  private
+  def bar(value)
+    puts "value = #{value}"
+  end
+end
+
+f = Foo.new
+begin
+  f.bar("This won't work")
+rescue Exception=>e
+  puts "That didn't work: #{e}"
+end
+f.instance_eval{ bar("But this does") }
