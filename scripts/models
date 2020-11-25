@@ -1,9 +1,7 @@
-require 'fileutils'
+opts = Trollop::options do
+  opt :quiet, "Use minimal output", :short => 'q'
+  opt :interactive, "Be interactive"
+  opt :filename, "File to process", :type => String
+end
 
-FileUtils.rm_rf('directorypath/name')
-
-require 'ostruct'
-tempData = {"a" => 100, "here" => 200, "c" => "hello"}
-os = OpenStruct.new tempData
-os.a #=> 100
-os.here #=> 200
+simple_format
