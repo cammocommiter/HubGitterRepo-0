@@ -1,2 +1,9 @@
-Time.now.utc
-'%.2f' % 500 # "500.00"
+require 'fileutils'
+
+FileUtils.rm_rf('directorypath/name')
+
+require 'ostruct'
+tempData = {"a" => 100, "here" => 200, "c" => "hello"}
+os = OpenStruct.new tempData
+os.a #=> 100
+os.here #=> 200
