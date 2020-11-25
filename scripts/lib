@@ -1,23 +1,2 @@
-lam = lambda { puts "Hello world"}
-lam.class
-
-#output is
-=> Proc
-
-1.upto(10) do |i|
-  puts i
-end
-
->> 1.upto(10) do |i|
- >     puts i
-|    end #=> 1
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
+String#tr
+x = x or new_value
