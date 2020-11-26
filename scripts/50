@@ -1,7 +1,25 @@
-class String
-  def initial
-    self[0,1]
+class Foo
+  def self.bar(message)
+    @bar ||= message
   end
 end
 
-sudo chown -R $USER /usr/local
+t1 = Thread.new do
+    puts "bar is #{Foo.bar('thread1')}"
+end
+
+t2 = Thread.new do
+    puts "bar is #{Foo.bar('thread2')}"
+end
+
+sleep 2
+
+t1.join
+t2.join
+
+=> bar is thread1
+=> bar is thread1
+
+puts Benchmark.measure("require #{file}") {
+  Kernel.require file
+}.format("%n: %t %r")
