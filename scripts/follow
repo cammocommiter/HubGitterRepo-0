@@ -1,12 +1,17 @@
-string = ""
-
-unless string.to_s.strip.empty?
-  # ...
+class Gift
+  def initialize
+    @name = "book"
+    @price = 15.95
+  end
 end
 
-input_string = "blahblahblahSTARTfoofoofooENDwowowowowo"
-str1_markerstring = "START"
-str2_markerstring = "END"
+gift = Gift.new
+hash = {}
+gift.instance_variables.each {|var| hash[var.to_s.delete("@")] = gift.instance_variable_get(var) }
+p hash # => {"name"=>"book", "price"=>15.95}
 
-input_string[/#{str1_markerstring}(.*?)#{str2_markerstring}/m, 1]
-#=> "foofoofoo"
+class String
+    def is_i?
+       !!(self =~ /\A[-+]?[0-9]+\z/)
+    end
+end
