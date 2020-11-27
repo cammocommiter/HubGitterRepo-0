@@ -1,2 +1,2 @@
--
-gem list --remote
+Time.parse(time)
+School
