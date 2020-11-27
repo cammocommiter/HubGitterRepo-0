@@ -1,2 +1,4 @@
-array.slice(begin [, end])
-throw
+require 'pp'
+pp my_hash
+
+bundle install
