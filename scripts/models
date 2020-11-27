@@ -1,7 +1,9 @@
-opts = Trollop::options do
-  opt :quiet, "Use minimal output", :short => 'q'
-  opt :interactive, "Be interactive"
-  opt :filename, "File to process", :type => String
-end
+$ gem install eventmachine -- --with-cppflags=-I/usr/local/opt/openssl/include                                                                                                             
+Building native extensions with: '--with-cppflags=-I/usr/local/opt/openssl/include'
+This could take a while...
+Successfully installed eventmachine-1.0.8
+1 gem installed
 
-simple_format
+rails console
+>> require "db/migrate/20090408054532_add_foos.rb"
+>> AddFoos.new.up
