@@ -1,9 +1,5 @@
-$ gem install eventmachine -- --with-cppflags=-I/usr/local/opt/openssl/include                                                                                                             
-Building native extensions with: '--with-cppflags=-I/usr/local/opt/openssl/include'
-This could take a while...
-Successfully installed eventmachine-1.0.8
-1 gem installed
-
-rails console
->> require "db/migrate/20090408054532_add_foos.rb"
->> AddFoos.new.up
+Struct.new(:x).new(42) == Struct.new(:x).new(42)
+has_many  :active_events, :through => :event_users, 
+          :class_name => "Event", 
+          :source => :event, 
+          :conditions => ['event_users.active = ?',true]
