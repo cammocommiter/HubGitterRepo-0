@@ -1,2 +1,3 @@
-belongs_to
-Date.parse
+['12','34','35','231'].join(', ')
+
+User.all
