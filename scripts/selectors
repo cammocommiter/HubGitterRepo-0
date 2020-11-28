@@ -1,2 +1,9 @@
-rubocop --auto-gen-config
-g
+a = ('a'..'z').to_a
+
+a.values_at(* a.each_index.select {|i| i.even?})
+# => ["a", "c", "e", "g", "i", "k", "m", "o", "q", "s", "u", "w", "y"]
+
+a.values_at(* a.each_index.select {|i| i.odd?})
+# => ["b", "d", "f", "h", "j", "l", "n", "p", "r", "t", "v", "x", "z"]
+
+send
