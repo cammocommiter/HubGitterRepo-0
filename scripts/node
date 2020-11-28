@@ -1,8 +1,2 @@
-irb> [1,2,3].each { |x| }
-  => [1, 2, 3]
-irb> x
-NameError: undefined local variable or method `x' for main:Object
-    from (irb):2
-    from :0
-
-any?
+config.yml
+US Standard
