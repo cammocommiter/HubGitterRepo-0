@@ -1,2 +1,2 @@
-pretty_generate()
-::new
+belongs_to
+Date.parse
