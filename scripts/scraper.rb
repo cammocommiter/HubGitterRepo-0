@@ -1,2 +1,3 @@
-Time.parse(time)
-School
+print "\a"
+
+Admin
