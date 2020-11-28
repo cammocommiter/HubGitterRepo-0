@@ -1,4 +1,2 @@
-require 'pp'
-pp my_hash
-
-bundle install
+each_with_index
+result.class.name
