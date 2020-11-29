@@ -1,5 +1,5 @@
-Struct.new(:x).new(42) == Struct.new(:x).new(42)
-has_many  :active_events, :through => :event_users, 
-          :class_name => "Event", 
-          :source => :event, 
-          :conditions => ['event_users.active = ?',true]
+arr = ['x', 'o', 'x', '.', '.', 'o', 'x']
+p arr.each_index.select{|i| arr[i] == 'x'} # =>[0, 2, 6]
+
+require "csv"
+parsed_file = CSV.read("path-to-file.csv", { :col_sep => "\t" })
