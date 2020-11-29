@@ -1,6 +1,4 @@
-list.group_by(&:capitalize).map {|k,v| [k, v.length]}
-#=> [["Master of puppets", 3], ["Enter sandman", 2], ["Nothing else matters", 1]]
+require 'io/console'
+password = STDIN.noecho(&:gets).chomp
 
-  task :my_task do
-    run "my_command"
-  end
+libmagic
