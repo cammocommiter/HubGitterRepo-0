@@ -1,6 +1,7 @@
->> 1.class #=> Fixnum
->> "foo".class #=> String
->> 1.is_a? Numeric #=> true
->> "foo".is_a? String #=> true
+h = { :$in => array }
+h = { :'a.b' => 'c' }
+h[:s] = 42
 
-database.yml
+user = User.new
+user.username = "foobar"
+user.save!
