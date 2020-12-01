@@ -1,17 +1,3 @@
-class Gift
-  def initialize
-    @name = "book"
-    @price = 15.95
-  end
-end
+sudo apt-get install libmysql-ruby libmysqlclient-dev
 
-gift = Gift.new
-hash = {}
-gift.instance_variables.each {|var| hash[var.to_s.delete("@")] = gift.instance_variable_get(var) }
-p hash # => {"name"=>"book", "price"=>15.95}
-
-class String
-    def is_i?
-       !!(self =~ /\A[-+]?[0-9]+\z/)
-    end
-end
+pretty_generate()
