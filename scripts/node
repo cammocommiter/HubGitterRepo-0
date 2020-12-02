@@ -1,2 +1,4 @@
-config.yml
-US Standard
+$ sudo apt-get install zlib1g-dev
+$ rvm reinstall 1.9.3
+
+.inspect
