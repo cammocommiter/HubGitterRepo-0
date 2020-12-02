@@ -1,2 +1,12 @@
-String#tr
-x = x or new_value
+require 'fileutils'
+
+FileUtils.rm_rf('directorypath/name')
+
+require "uri"
+require "net/http"
+
+params = {'box1' => 'Nothing is less important than which fork you use. Etiquette is the science of living. It embraces everything. It is ethics. It is honor. -Emily Post',
+'button1' => 'Submit'
+}
+x = Net::HTTP.post_form(URI.parse('http://www.interlacken.com/webdbdev/ch05/formpost.asp'), params)
+puts x.body
