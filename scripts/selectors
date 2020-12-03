@@ -1,2 +1,2 @@
-rm ~/.zcompdump*
-bundle install
+BasicObject
+SCREAMING_SNAKE_CASE
