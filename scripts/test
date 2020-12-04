@@ -1,2 +1,5 @@
-[1,2,3,5,2].find { |n| puts n; n == 2 } 
-PATH
+Given /^PENDING/ do
+  pending
+end
+
+readme.txt
