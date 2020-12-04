@@ -1,3 +1,2 @@
-h = Hash[a.zip b] # => {:baz=>1, :bof=>2, :bar=>"world", :foo=>"hello"}
-
-raise
+gem install bundle
+object.send(:foo) # same as object.foo
