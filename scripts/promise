@@ -1,5 +1,2 @@
-if __FILE__ == $0
-  # this library may be run as a standalone script
-end
-
-File.expand_path
+next
+ln -s /usr/local/opt/readline/lib/libreadline.7.0.dylib /usr/local/opt/readline/lib/libreadline.6.dylib
