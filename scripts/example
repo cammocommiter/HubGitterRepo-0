@@ -1,3 +1,2 @@
-let(:dummy_class) { Class.new { include ModuleToBeTested } }
-
-File.open("out.txt", [your-option-string]) {|f| f.write("write your stuff here") }
+inspect
+require mygem
