@@ -1,11 +1,2 @@
-require 'pg'
-conn = PGconn.open(:dbname => 'test')
-res  = conn.exec('SELECT 1 AS a, 2 AS b, NULL AS c')
-res.getvalue(0,0) # '1'
-res[0]['b']       # '2'
-res[0]['c']       # nil
-
-app/
-  commands/
-    products/create_command.rb         # Products::CreateCommand
-    products/update_price_command.rb   # Products::UpdatePriceCommand
+and_call_original
+Integer
