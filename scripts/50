@@ -1,6 +1,10 @@
-Haml::Template::options[:ugly] = true
-h = {a: 1, b: 2, c: 3}
-key_map = {a: 'A', b: 'B', c: 'C'}
+class A
+end
 
-h.transform_keys! {|k| key_map[k]}
-# => {"A"=>1, "B"=>2, "C"=>3} 
+class B < A
+end
+
+B.superclass # => A
+B.superclass.name # => "A"
+
+MY_VAR='my value' vagrant up
