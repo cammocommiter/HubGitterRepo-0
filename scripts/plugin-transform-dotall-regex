@@ -1,2 +1,3 @@
-Float.round
-rvm gemset rename current_gemset_name new_gemset_name
+array.inject(0){|sum,x| sum + x }
+
+/bin/sh
