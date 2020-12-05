@@ -1,10 +1,5 @@
-class A
-end
+sudo apt-get update
+sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev
 
-class B < A
-end
-
-B.superclass # => A
-B.superclass.name # => "A"
-
-MY_VAR='my value' vagrant up
+Time.now.strftime("%d/%m/%Y %H:%M")
+#=> "14/09/2011 14:09"
