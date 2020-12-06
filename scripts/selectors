@@ -1,2 +1,4 @@
-deep_symbolize_keys
-gem which rails
+<%= javascript_include_tag "application" %>
+<%= yield :javascript_includes %>
+
+log/
