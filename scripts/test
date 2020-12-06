@@ -1,5 +1,2 @@
-Given /^PENDING/ do
-  pending
-end
-
-readme.txt
+&
+MyModule.constants.select {|c| MyModule.const_get(c).is_a? Class}
