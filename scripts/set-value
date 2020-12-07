@@ -1,15 +1,5 @@
-FileUtils
-require 'rake'
+ln -s /usr/local/opt/readline/lib/libreadline.7.0.dylib /usr/local/opt/readline/lib/libreadline.6.dylib
 
-def capture_stdout
-  s = StringIO.new
-  oldstdout = $stdout
-  $stdout = s
-  yield
-  s.string
-ensure
-  $stdout = oldstdout
+array.each do |element|
+  element.do_stuff
 end
-
-Rake.application.rake_require 'metric_fetcher', ['../../lib/tasks']
-results = capture_stdout {Rake.application['metric_fetcher'].invoke}
