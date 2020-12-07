@@ -1,3 +1,2 @@
-(0...8).map { (65 + rand(26)).chr }.join
-
-defined?
+File.expand_path(__FILE__)}
+libjson-ruby
