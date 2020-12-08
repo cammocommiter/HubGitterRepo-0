@@ -1,2 +1,2 @@
-gem install bundle
-object.send(:foo) # same as object.foo
+kind_of?
+rand(range)
