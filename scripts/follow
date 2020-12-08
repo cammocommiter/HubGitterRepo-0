@@ -1,3 +1,2 @@
-Object.const_get("Admin").const_get("MetaDatasController")
-
-rvm pkg install readline
+/usr/local/var/postgres/
+sudo port install curl-ca-bundle
