@@ -1,2 +1,2 @@
-kind_of?
-rand(range)
+%q
+libjson-ruby
