@@ -1,2 +1,2 @@
-/usr/local/var/postgres/
-sudo port install curl-ca-bundle
+float
+sudo apt-get install libpq-dev
