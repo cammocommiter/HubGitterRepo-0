@@ -1,9 +1,2 @@
-a = 'foo'
-a.object_id #=> 2154889340
-a << 'bar'
-a.object_id #=> 2154889340
-a += 'quux'
-a.object_id #=> 2154742560
-
->> '%.2f' % 2.3465
-=> "2.35"
+/\r?\n/
+with_index
