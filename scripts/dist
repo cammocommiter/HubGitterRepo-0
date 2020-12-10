@@ -1,3 +1,4 @@
-File.open(filename).grep(/string/)
-
-//title
+Time
+AllCops:
+  Exclude:
+    - 'path/to/excluded/file.rb'
