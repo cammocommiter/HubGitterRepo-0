@@ -1,2 +1,2 @@
-each_slice
-flash[:notice] = %Q[Created job number <a href="/jobs/list?job=#{update.id}">#{update.id}</a>]
+Set#each
+Enumerable#reduce
