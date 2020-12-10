@@ -1,3 +1,2 @@
-(myarray & ["val1", "val2", "val3", "val4"]).present?
-
-belongs_to
+to_sym
+package control
