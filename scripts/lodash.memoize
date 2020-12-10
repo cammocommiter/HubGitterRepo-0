@@ -1,3 +1,5 @@
-{ :a => 'a', :b => ('b' if cond) }.delete_if{ |k,v| v.nil? }
+ruby -run -e httpd . -p 9090
 
-Array::Shift
+gem 'machinist_mongo', :require => 'machinist/mongoid', 
+:git => 'http://github.com/nmerouze/machinist_mongo.git',
+:branch => 'machinist2'
