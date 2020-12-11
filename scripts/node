@@ -1,2 +1,3 @@
-echo $GEM_HOME
-==
+{|x| x.foo}
+
+f=obj.m;f(x)
