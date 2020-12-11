@@ -1,2 +1,2 @@
-before_create
-mkmf
+Record.last(N)
+"\n"
