@@ -1,2 +1,2 @@
-to_sym
-package control
+rake spec
+before(:each)
