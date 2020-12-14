@@ -1,2 +1,2 @@
-/\r?\n/
-with_index
+String#split
+UPDATE pg_database SET datistemplate = FALSE WHERE datname = 'template1';
