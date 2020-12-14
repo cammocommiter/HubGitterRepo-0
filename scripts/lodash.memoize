@@ -1,5 +1,12 @@
-ruby -run -e httpd . -p 9090
+Array
+>> ids = [100, 1, 6]
+=> [100, 1, 6]
 
-gem 'machinist_mongo', :require => 'machinist/mongoid', 
-:git => 'http://github.com/nmerouze/machinist_mongo.git',
-:branch => 'machinist2'
+>> WordDocument.find(ids).collect(&:id)
+=> [1, 6, 100]
+
+>> WordDocument.find(ids, :order => "field(id, #{ids.join(',')})")
+=> [100, 1, 6]
+
+For new Version
+>> WordDocument.where(id: ids).order("field(id, #{ids.join ','})")
