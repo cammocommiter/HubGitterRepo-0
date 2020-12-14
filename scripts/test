@@ -1,2 +1,2 @@
-rake spec
-before(:each)
+has_secure_password
+>= 2.5.0
