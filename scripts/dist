@@ -1,4 +1,21 @@
-Time
-AllCops:
-  Exclude:
-    - 'path/to/excluded/file.rb'
+sudo apt-get install libgmp-dev
+
+module Common
+  def foo
+    puts 'foo'
+  end
+end
+
+class A
+  extend Common
+end
+
+class B
+  extend Common
+end
+
+class C
+  extend Common
+end
+
+A.foo
