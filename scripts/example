@@ -1,2 +1,3 @@
-String#split
-UPDATE pg_database SET datistemplate = FALSE WHERE datname = 'template1';
+find('#some_button').find(:xpath,".//..").fill_in "Name:", :with => name
+
+irb -r ./your_file.rb
