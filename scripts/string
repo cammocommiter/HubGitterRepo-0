@@ -1,1 +1,5 @@
-def this; end
+Integer('1001')                                    # => 1001  
+Integer('1001 nights')  
+# ArgumentError: invalid value for Integer: "1001 nights"  
+
+rvm pkg install libyaml
