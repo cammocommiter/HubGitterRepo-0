@@ -1,12 +1,4 @@
-Array
->> ids = [100, 1, 6]
-=> [100, 1, 6]
+Array.new(5, str)
+# => [1234, 1234, 1234, 1234, 1234]
 
->> WordDocument.find(ids).collect(&:id)
-=> [1, 6, 100]
-
->> WordDocument.find(ids, :order => "field(id, #{ids.join(',')})")
-=> [100, 1, 6]
-
-For new Version
->> WordDocument.where(id: ids).order("field(id, #{ids.join ','})")
+NoMethodError
