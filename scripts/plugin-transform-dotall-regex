@@ -1,3 +1,6 @@
-array.inject(0){|sum,x| sum + x }
-
-/bin/sh
+instance_variable_get
+RUBY_VERSION # => "1.9.2"
+bashrc = ENV['HOME'] + '/.bashrc'
+File.exist?(bashrc) # => true
+File.file?(bashrc)  # => true
+File.directory?(bashrc) # => false
