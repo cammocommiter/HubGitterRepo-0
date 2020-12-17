@@ -1,2 +1,2 @@
-to_s
-parse.y
+rvm --help
+result = Users.find(:all, :order => "LOWER(name)")
