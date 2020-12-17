@@ -1,2 +1,2 @@
-%q
-libjson-ruby
+!
+"The #{animal} #{action} the #{second_animal}"
