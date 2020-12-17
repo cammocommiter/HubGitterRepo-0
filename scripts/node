@@ -1,3 +1,7 @@
-File.expand_path(__FILE__) et al
+puts caller[0]
 
-step()
+config   = Rails.configuration.database_configuration
+host     = config[Rails.env]["host"]
+database = config[Rails.env]["database"]
+username = config[Rails.env]["username"]
+password = config[Rails.env]["password"]
