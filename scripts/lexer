@@ -1,3 +1,3 @@
-arg_dup = ARGV[ 0 ].dup
-
-uuid-ossp
+image_path
+# %q(a string) is equivalent to a single-quoted string
+puts "Cote d'Ivoir".gsub("'", %q(\\\')) #=> Cote d\'Ivoir
