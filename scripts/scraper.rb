@@ -1,3 +1,2 @@
-print "\a"
-
-Admin
+to_s
+parse.y
