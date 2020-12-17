@@ -1,2 +1,3 @@
-create()
-date_select
+sudo apt-get install mysql-client libmysqlclient-dev
+
+output
