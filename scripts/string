@@ -1,2 +1,2 @@
-send
-"A".ord #=> 65
+Hash[ keys.zip(values) ]
+return hashValue.ToString();
