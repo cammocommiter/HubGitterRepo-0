@@ -1,5 +1,9 @@
-ln -s /usr/local/opt/readline/lib/libreadline.7.0.dylib /usr/local/opt/readline/lib/libreadline.6.dylib
+sudo yum list installed
+# in config/initializers/active_admin.rb
+ActiveAdmin.setup do |config|
+    ....
+end
 
-array.each do |element|
-  element.do_stuff
+module ActiveAdmin::ViewHelpers
+  include ApplicationHelper
 end
