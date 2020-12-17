@@ -1,6 +1,2 @@
-super
-begin
-  # do something that fails...
-rescue => error
-  # error and $! are equivalent here
-end
+script/delayed_job
+No repository found at http://download.eclipse.org/releases/kepler/
