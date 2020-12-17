@@ -1,13 +1,22 @@
-Rails3
-# spec/my_spec.rb
-describe SomeContext do
-  it "won't run this" do
-    raise "never reached"
+scan
+class Hash
+  # Returns a hash that includes everything but the given keys.
+  #   hash = { a: true, b: false, c: nil}
+  #   hash.except(:c) # => { a: true, b: false}
+  #   hash # => { a: true, b: false, c: nil}
+  #
+  # This is useful for limiting a set of parameters to everything but a few known toggles:
+  #   @person.update(params[:person].except(:admin))
+  def except(*keys)
+    dup.except!(*keys)
   end
 
-  it "will run this", :focus => true do
-    1.should == 1
+  # Replaces the hash without the given keys.
+  #   hash = { a: true, b: false, c: nil}
+  #   hash.except!(:c) # => { a: true, b: false}
+  #   hash # => { a: true, b: false }
+  def except!(*keys)
+    keys.each { |key| delete(key) }
+    self
   end
 end
-
-$ rspec --tag focus spec/my_spec.rb
