@@ -1,9 +1,2 @@
-sudo yum list installed
-# in config/initializers/active_admin.rb
-ActiveAdmin.setup do |config|
-    ....
-end
-
-module ActiveAdmin::ViewHelpers
-  include ApplicationHelper
-end
+s_client
+params.require(:post).permit(:name, :email, :categories => [])
