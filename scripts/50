@@ -1,8 +1,4 @@
-code completion
-$ sudo vi /etc/paths
-/usr/local/bin
-/usr/local/sbin
-/usr/bin
-/bin
-/usr/sbin
-/sbin
+"\n"
+a = [1,2,3,4,5]
+a.include?(3)   # => true
+a.include?(9)   # => false
