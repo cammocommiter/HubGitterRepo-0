@@ -1,3 +1,18 @@
-RUBY_PLATFORM == "java"
+unicorn-rails
+class Foo
+  def self.bar
+    puts "bar"
+  end
+end
 
-Today
+Foo.bar    # => bar
+
+class <<Foo
+  undef_method :bar
+end
+# or
+class Foo
+  singleton_class.undef_method :bar
+end
+
+Foo.bar    # => undefined method `bar' for Foo:Class (NoMethodError)
