@@ -1,3 +1,9 @@
-find('#some_button').find(:xpath,".//..").fill_in "Name:", :with => name
+>> Process.kill 0, 370
+=> 1
+>> Process.kill 0, 2
+Errno::ESRCH: No such process
+    from (irb):5:in `kill'
+    from (irb):5
+>> 
 
-irb -r ./your_file.rb
+gem install ...
