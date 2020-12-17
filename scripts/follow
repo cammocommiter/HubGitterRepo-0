@@ -1,3 +1,2 @@
-sudo apt-get install mysql-client libmysqlclient-dev
-
-output
+String#start_with?
+number_with_delimiter
