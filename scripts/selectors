@@ -1,9 +1,8 @@
-a.map {|x| x[/\d+/]}
-
-h.each do |key, value|
-  puts key
-  value.each do |k,v|
-    puts k
-    puts v
-  end
-end
+Factory.after_ hooks
+app/
+  models/
+    question/
+      document.rb
+    answer.rb
+    document.rb
+    question.rb
