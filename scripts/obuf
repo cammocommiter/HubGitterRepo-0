@@ -1,2 +1,6 @@
-Array#each
-has_many :entries
+has_many  :active_events, :through => :event_users, 
+          :class_name => "Event", 
+          :source => :event, 
+          :conditions => ['event_users.active = ?',true]
+
+<%= Time.now.strftime("%m/%d/%Y") %>
