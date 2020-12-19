@@ -1,9 +1,17 @@
-Process.pid
-elsif !reject_new_record?(association_name, attributes)
-  method = "build_#{association_name}"
-  if respond_to?(method)
-    send(method, attributes.except(*UNASSIGNABLE_KEYS))
-  else
-    raise ArgumentError, "Cannot build association #{association_name}. Are you trying to build a polymorphic one-to-one association?"
-  end
+GoogleChart::PieChart.new('320x200', "Things I Like To Eat", false) do |pc| 
+  pc.data "Broccoli", 30
+  pc.data "Pizza", 20
+  pc.data "PB&J", 40 
+  pc.data "Turnips", 10 
+  puts pc.to_url 
 end
+
+sudo apt-get -y update
+sudo apt-get -y install build-essential zlib1g-dev libssl-dev libreadline6-dev libyaml-dev
+cd /tmp
+wget http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p481.tar.gz
+tar -xvzf ruby-2.0.0-p481.tar.gz
+cd ruby-2.0.0-p481/
+./configure --prefix=/usr/local
+make
+sudo make install
