@@ -1,7 +1,17 @@
-puts caller[0]
+rails destroy controller lalala
+rails destroy model yadayada
+rails destroy scaffold hohoho
 
-config   = Rails.configuration.database_configuration
-host     = config[Rails.env]["host"]
-database = config[Rails.env]["database"]
-username = config[Rails.env]["username"]
-password = config[Rails.env]["password"]
+class Foo
+  def bar
+    'Hello'
+  end
+end 
+
+class ExtendedFoo < Foo
+  def bar
+    super + ' World'
+  end
+end
+
+ExtendedFoo.new.bar # => 'Hello World'
