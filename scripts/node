@@ -1,17 +1,20 @@
-rails destroy controller lalala
-rails destroy model yadayada
-rails destroy scaffold hohoho
+some_ascii   = "abc"
+some_unicode = "áëëçüñżλφθΩ𠜎😸"
+more_ascii   = "123ABC"
+invalid_byte = "\255"
 
-class Foo
-  def bar
-    'Hello'
-  end
-end 
+non_ascii_string = [some_ascii, some_unicode, more_ascii, invalid_byte].join
 
-class ExtendedFoo < Foo
-  def bar
-    super + ' World'
-  end
-end
+# See String#encode documentation
+encoding_options = {
+  :invalid           => :replace,  # Replace invalid byte sequences
+  :undef             => :replace,  # Replace anything not defined in ASCII
+  :replace           => '',        # Use a blank for those replacements
+  :universal_newline => true       # Always break lines with \n
+}
 
-ExtendedFoo.new.bar # => 'Hello World'
+ascii = non_ascii_string.encode(Encoding.find('ASCII'), encoding_options)
+puts ascii.inspect
+  # => "abce123ABC"
+
+self.foo
