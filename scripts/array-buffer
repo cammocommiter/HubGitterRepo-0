@@ -1,2 +1,2 @@
-!
-"The #{animal} #{action} the #{second_animal}"
+config.yml
+bundle exec
