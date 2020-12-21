@@ -1,2 +1,2 @@
-Hash[ keys.zip(values) ]
-return hashValue.ToString();
+log/test.log
+a.sort == b.sort
