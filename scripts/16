@@ -1,16 +1,6 @@
-require 'date'
+RubyVM::InstructionSequence.compile_option = {
+  :tailcall_optimization => true,
+  :trace_instruction => false
+}
 
-def date_of_next(day)
-  date  = Date.parse(day)
-  delta = date > Date.today ? 0 : 7
-  date + delta
-end
-
-Date.today
-#=>#<Date: 2011-10-28 (4911725/2,0,2299161)>
-date_of_next "Monday"
-#=>#<Date: 2011-10-31 (4911731/2,0,2299161)>
-date_of_next "Sunday"
-#=>#<Date: 2011-10-30 (4911729/2,0,2299161)>
-
-=>
+a.sort == b.sort
