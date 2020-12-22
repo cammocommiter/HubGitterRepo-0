@@ -1,2 +1,2 @@
-inspect
-brew install imagemagick --disable-openmp
+variable-exists()
+curb
