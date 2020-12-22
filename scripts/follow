@@ -1,4 +1,2 @@
-"String".start_with? "S" # true
-"String".end_with? "4" # false
-
-Foo.where("bar LIKE ?", "%#{query}%")
+do |arg0,arg1| ... end
+IO.read()
