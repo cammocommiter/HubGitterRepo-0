@@ -1,4 +1,2 @@
-public
-name1 = "John"
-name2 = "Mary"
-"hello, #{name1}.  Where is #{name2}?"
+package control
+a data-title="help" data-content="foo"
