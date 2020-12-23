@@ -1,2 +1,4 @@
-do |arg0,arg1| ... end
-IO.read()
+public
+name1 = "John"
+name2 = "Mary"
+"hello, #{name1}.  Where is #{name2}?"
