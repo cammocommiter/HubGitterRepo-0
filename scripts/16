@@ -1,6 +1,7 @@
-RubyVM::InstructionSequence.compile_option = {
-  :tailcall_optimization => true,
-  :trace_instruction => false
-}
+opts = Trollop::options do
+  opt :quiet, "Use minimal output", :short => 'q'
+  opt :interactive, "Be interactive"
+  opt :filename, "File to process", :type => String
+end
 
-a.sort == b.sort
+rubocop --auto-gen-config
