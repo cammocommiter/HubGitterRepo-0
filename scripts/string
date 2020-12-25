@@ -1,7 +1,2 @@
-def some_method
-  redirect_to :back
-rescue ActionController::RedirectBackError
-  redirect_to root_path
-end
-
-$:.unshift File.dirname(__FILE__)
+..
+.inspect
