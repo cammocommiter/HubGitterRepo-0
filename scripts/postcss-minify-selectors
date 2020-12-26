@@ -1,6 +1,6 @@
-                URL                 Helper                      Description
-----------------------------------------------------------------------------------------------------------------------------------
-member          /photos/1/preview   preview_photo_path(photo)   Acts on a specific resource so required id (preview specific photo)
-collection      /photos/search      search_photos_path          Acts on collection of resources(display all photos)
+>> a=*(1..10)
+=> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-yield
+<% @images.each_with_index do |page, index| %>
+
+<% end %>
