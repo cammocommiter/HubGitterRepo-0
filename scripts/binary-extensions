@@ -1,3 +1,4 @@
-[x*x for x in values if x > 15]
-
-objects.sort_by {|obj| obj.attribute}
+is_a?
+name1 = "John"
+name2 = "Mary"
+"hello, #{name1}.  Where is #{name2}?"
