@@ -1,7 +1,11 @@
-opts = Trollop::options do
-  opt :quiet, "Use minimal output", :short => 'q'
-  opt :interactive, "Be interactive"
-  opt :filename, "File to process", :type => String
+require "open-uri"
+
+class User < ActiveRecord::Base
+  has_attached_file :picture
+
+  def picture_from_url(url)
+    self.picture = open(url)
+  end
 end
 
-rubocop --auto-gen-config
+scan
