@@ -1,3 +1,7 @@
-image_path
-# %q(a string) is equivalent to a single-quoted string
-puts "Cote d'Ivoir".gsub("'", %q(\\\')) #=> Cote d\'Ivoir
+RUBY_VERSION # => "1.9.2"
+bashrc = ENV['HOME'] + '/.bashrc'
+File.exist?(bashrc) # => true
+File.file?(bashrc)  # => true
+File.directory?(bashrc) # => false
+
+request.referer
