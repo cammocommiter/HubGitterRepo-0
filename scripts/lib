@@ -1,2 +1,3 @@
-https://www.example.com:443/path/
-create
+require 'irb/completion'
+resources :highlights, :controller => "ads", :type => "Highlight"
+resources :bargains, :controller => "ads", :type => "Bargain"
