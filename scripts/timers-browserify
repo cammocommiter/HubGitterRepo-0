@@ -1,12 +1,27 @@
-"foo".methods
+>> str = '[\w\s]+'
+ => "[\\w\\s]+" 
+>> Regexp.new str
+ => /[\w\s]+/ 
 
-def sanitize_filename(filename)
-  returning filename.strip do |name|
-   # NOTE: File.basename doesn't work right with Windows paths on Unix
-   # get only the filename, not the whole path
-   name.gsub!(/^.*(\\|\/)/, '')
+before_action :fetch_current_category, only: [:show,:edit,:update] 
+before_action :fetch_categories, only: [:show,:edit,:update] 
+before_action :fetch_search_results, only: [:show,:edit,:update] #or whatever
 
-   # Strip out the non-ascii character
-   name.gsub!(/[^0-9A-Za-z.\-]/, '_')
-  end
+def show
+  rate
+end
+
+private
+
+def fetch_current_category
+  @category = Category.friendly.find(params[:id])
+end
+
+def fetch_categories
+  @categories = Category.all
+end
+
+def fetch_search_results
+  @search = category.products.approved.order(updated_at: :desc).ransack(params[:q])
+  @products = @search.result.page(params[:page]).per(50)
 end
