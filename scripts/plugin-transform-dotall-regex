@@ -1,5 +1,2 @@
-d = Date.new(2012, 8, 29)
-t = Time.now
-dt = DateTime.new(d.year, d.month, d.day, t.hour, t.min, t.sec, t.zone)
-
-match
+destroy_all
+any?
