@@ -1,18 +1,3 @@
-unicorn-rails
-class Foo
-  def self.bar
-    puts "bar"
-  end
-end
+"The #{animal} #{action} the #{second_animal}"
 
-Foo.bar    # => bar
-
-class <<Foo
-  undef_method :bar
-end
-# or
-class Foo
-  singleton_class.undef_method :bar
-end
-
-Foo.bar    # => undefined method `bar' for Foo:Class (NoMethodError)
+TestClass.instance_methods
