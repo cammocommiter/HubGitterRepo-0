@@ -1,2 +1,4 @@
-mkdir_p
-render_views
+Record.last(N)
+# Two ways to achieve the same result (any Ruby version)
+my_hash.each{ |_,str| str.gsub! /^|$/, '%' }
+my_hash.each{ |_,str| str.replace "%#{str}%" }
