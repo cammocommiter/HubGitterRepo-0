@@ -1,2 +1,2 @@
-puts
-for i in `gem list --no-versions`; do gem uninstall -aIx $i; done
+-1
+a.sort == b.sort
