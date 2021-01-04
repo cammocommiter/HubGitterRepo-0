@@ -1,2 +1,2 @@
--1
-a.sort == b.sort
+class << self
+:collection
