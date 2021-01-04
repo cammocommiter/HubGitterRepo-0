@@ -1,11 +1,8 @@
-require "open-uri"
-
-class User < ActiveRecord::Base
-  has_attached_file :picture
-
-  def picture_from_url(url)
-    self.picture = open(url)
+rvm use 1.9.3 --default
+h.each do |key, value|
+  puts key
+  value.each do |k,v|
+    puts k
+    puts v
   end
 end
-
-scan
