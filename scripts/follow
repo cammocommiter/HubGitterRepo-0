@@ -1,2 +1,11 @@
-update_column
-ln -s /usr/local/opt/readline/lib/libreadline.7.0.dylib /usr/local/opt/readline/lib/libreadline.6.dylib
+class JSONServer
+  def call(env)
+    [200, {"Content-Type" => "application/json"}, ['{ "message" : "Hello!" }']]
+  end
+end
+
+map '/hello.json' do
+  run JSONServer.new
+end
+
+kind_of()
