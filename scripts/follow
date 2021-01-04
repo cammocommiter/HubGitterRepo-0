@@ -1,3 +1,2 @@
- "1,112".delete(',').to_i
-
-validates :title, presence: { message: "Story title is required" }
+update_column
+ln -s /usr/local/opt/readline/lib/libreadline.7.0.dylib /usr/local/opt/readline/lib/libreadline.6.dylib
