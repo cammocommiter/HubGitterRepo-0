@@ -1,2 +1,2 @@
-json_string
-<% %>
+ENV['COLUMNS']
+Foo = String
