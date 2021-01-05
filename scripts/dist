@@ -1,20 +1,2 @@
-@bunch.group_by{|e| [e.commentable_id, e.commentable_type]}
-
-#!/usr/bin/env ruby
-require 'optparse'
-
-options = {}
-
-optparse = OptionParser.new do |opts|
-  opts.on('-h', '--host HOSTNAME', "Mandatory Host Name") do |f|
-    options[:host] = f
-  end
-end
-
-optparse.parse!
-
-#Now raise an exception if we have not found a host option
-raise OptionParser::MissingArgument if options[:host].nil?
-
-
-puts "Host = #{options[:host]}"
+IO
+raise
