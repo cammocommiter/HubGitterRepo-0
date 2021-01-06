@@ -1,3 +1,13 @@
-first('.item').click_link('Agree')
+class A
+  define_singleton_method :loudly do |message|
+    puts message.upcase
+  end
+end
 
-"name LIKE '%?%' OR postal_code LIKE '%?%'", search, search
+A.loudly "my message"
+
+# >> MY MESSAGE
+
+var = "Value"
+str = "a test Value"
+p str.gsub( /#{var}/, 'foo' )   # => "a test foo"
