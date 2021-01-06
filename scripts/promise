@@ -1,4 +1,2 @@
-protected
-class Car {
-    class Wheel { }
-}
+sort_by{...}.reverse!
+p foo
