@@ -1,3 +1,2 @@
-require 'irb/completion'
-resources :highlights, :controller => "ads", :type => "Highlight"
-resources :bargains, :controller => "ads", :type => "Bargain"
+defined?
+each_with_index
