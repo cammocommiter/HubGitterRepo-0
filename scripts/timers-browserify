@@ -1,5 +1,6 @@
-myobject.send(:method_name, args)
+([2, 6, 13, 99, 27] & [2, 6]).any?
 
-case item
-when MyClass
-...
+  you = Human.new
+  if you.respond_to?(:knock)
+    ...
+  end
