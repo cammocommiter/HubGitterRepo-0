@@ -1,2 +1,2 @@
-request.referer
-instance_variable_get
+render :plain
+symbolize_names
