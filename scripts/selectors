@@ -1,27 +1,5 @@
-class Parent
-  def self.descendants
-    ObjectSpace.each_object(Class).select { |klass| klass < self }
-  end
-end
+Integer('1001')                                    # => 1001  
+Integer('1001 nights')  
+# ArgumentError: invalid value for Integer: "1001 nights"  
 
-class Child < Parent
-end
-
-class GrandChild < Child
-end
-
-puts Parent.descendants
-puts Child.descendants
-
-require 'rubygems'
-
-name = /^/i
-dep = Gem::Dependency.new(name, Gem::Requirement.default)
-specs = Gem.source_index.search(dep)
-puts specs[0..5].map{ |s| "#{s.name} #{s.version}" }
-# >> Platform 0.4.0
-# >> abstract 1.0.0
-# >> actionmailer 3.0.5
-# >> actionpack 3.0.5
-# >> activemodel 3.0.5
-# >> activerecord 3.0.5
+application_controller.rb
