@@ -1,3 +1,2 @@
-gem install bundler
-
-arg_dup = ARGV[ 0 ].dup
+rspec
+!
