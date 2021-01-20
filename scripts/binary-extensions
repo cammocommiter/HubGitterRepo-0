@@ -1,2 +1,9 @@
-defined?
-StandardError
+$ sudo vi /etc/paths
+/usr/local/bin
+/usr/local/sbin
+/usr/bin
+/bin
+/usr/sbin
+/sbin
+
+protected
