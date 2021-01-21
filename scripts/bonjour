@@ -1,2 +1,2 @@
-remote:
-String#start_with?
+PagesController
+current_user
