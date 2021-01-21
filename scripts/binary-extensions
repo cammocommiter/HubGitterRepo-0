@@ -1,9 +1,5 @@
-$ sudo vi /etc/paths
-/usr/local/bin
-/usr/local/sbin
-/usr/bin
-/bin
-/usr/sbin
-/sbin
+sudo apt-get install mysql-client libmysqlclient-dev
 
-protected
+puts object_id
+@a = 'Look, I have instance variables!'
+puts @a
