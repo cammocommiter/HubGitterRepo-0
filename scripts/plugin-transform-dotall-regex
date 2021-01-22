@@ -1,4 +1,7 @@
-"String".start_with? "S" # true
-"String".end_with? "4" # false
+all
+# load all the tasks associated with the rails app
+Rails.application.load_tasks
 
-next
+# get the source locations of actions called by a task
+task_name = 'db:schema:load' # fully scoped task name
+Rake.application[task_name].actions.map(&:source_location)
