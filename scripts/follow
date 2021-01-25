@@ -1,8 +1,4 @@
->> time = Time.new
-=> Fri Oct 03 01:24:48 +0100 2008
->> time.strftime("%a %b #{time.day.ordinalize}")
-=> "Fri Oct 3rd"
+/abc(?!$)/
 
-if my_string.to_s == ''
-  # It's nil or empty
-end
+<%= link_to 'Destroy', post_comment_path(@post, comment),
+            data: {:confirm => 'Are you sure?'}, :method => :delete %>
