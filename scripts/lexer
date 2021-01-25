@@ -1,12 +1,2 @@
-if __FILE__ == $0
-  x = SweetClass.new(ARGV)
-  x.run # or go, or whatever
-end
-
-path = '/tmp/foo'
-lines = IO.readlines(path).map do |line|
-  'Kilroy was here ' + line
-end
-File.open(path, 'w') do |file|
-  file.puts lines
-end
+/bin/bash --login
+HTTP_PROXY
