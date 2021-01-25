@@ -1,6 +1,12 @@
->> a=*(1..10)
-=> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+input_string = "blahblahblahSTARTfoofoofooENDwowowowowo"
+str1_markerstring = "START"
+str2_markerstring = "END"
 
-<% @images.each_with_index do |page, index| %>
+input_string[/#{str1_markerstring}(.*?)#{str2_markerstring}/m, 1]
+#=> "foofoofoo"
 
-<% end %>
+Promotion.joins(:category).
+         where(["lft>=? and rgt<=?", c.lft, c.rgt]).
+         joins(:shops).
+         where(:promotions_per_shops => { :shop_id => shops_id }).
+         count('id', :distinct => true)
