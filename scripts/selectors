@@ -1,5 +1,3 @@
-Integer('1001')                                    # => 1001  
-Integer('1001 nights')  
-# ArgumentError: invalid value for Integer: "1001 nights"  
+sudo xcode-select --install
 
-application_controller.rb
+Gemfile.lock
