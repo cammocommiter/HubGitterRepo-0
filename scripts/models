@@ -1,2 +1,7 @@
-render :plain
-symbolize_names
+lam = lambda { puts "Hello world"}
+lam.class
+
+#output is
+=> Proc
+
+extend
