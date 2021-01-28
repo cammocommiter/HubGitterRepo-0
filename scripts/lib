@@ -1,8 +1,5 @@
-require 'date'
-begin
-   Date.parse("31-02-2010")
-rescue ArgumentError
-   # handle invalid date
-end
+<% @posts.each do |post| %>
+  <%= render 'middle', :post => post %>
+<% end %>
 
-f.input :color, :as => :select, :collection => Wine.colors.keys.to_a
+Gemfile
