@@ -1,2 +1,2 @@
-ENV['COLUMNS']
-Foo = String
+user.reload
+each_slice
