@@ -1,16 +1,14 @@
-ActionController::Base
-# How to find out where a method comes from.
-# Learned this from Dave Thomas while teaching Advanced Ruby Studio
-# Makes the case for separating method definitions into
-# modules, especially when enhancing built-in classes.
-module Perpetrator
-  def crime
+require
+module MyGem
+  describe "CLI" do
+    context "execute" do
+
+      it "should exit cleanly when -h is used" do
+        argv=["-h"]
+        out = StringIO.new
+        lambda { ::MyGem::CLI.execute( out, argv) }.should raise_error SystemExit
+      end
+
+    end
   end
 end
-
-class Fixnum
-  include Perpetrator
-end
-
-p 2.method(:crime) # The "2" here is an instance of Fixnum.
-#<Method: Fixnum(Perpetrator)#crime>
