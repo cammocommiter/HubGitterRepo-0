@@ -1,4 +1,3 @@
-file = File.open("path-to-file.tar.gz", "rb")
-contents = file.read
+hash = Hash.new {|hash, key| hash[key] = f(key) }
 
-cat
+Find.find
