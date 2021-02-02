@@ -1,3 +1,5 @@
-Array#uniq
- #!/usr/bin/env ruby
-`wget http://somedomain.net/flv/sample/sample.flv`
+data.each_slice(3) {|slice| ... }
+
+---
+content:
+    session: 0
