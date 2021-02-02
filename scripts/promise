@@ -1,2 +1,3 @@
-sort_by{...}.reverse!
-p foo
+Array#uniq
+ #!/usr/bin/env ruby
+`wget http://somedomain.net/flv/sample/sample.flv`
