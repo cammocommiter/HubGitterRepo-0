@@ -1,12 +1,2 @@
-input_string = "blahblahblahSTARTfoofoofooENDwowowowowo"
-str1_markerstring = "START"
-str2_markerstring = "END"
-
-input_string[/#{str1_markerstring}(.*?)#{str2_markerstring}/m, 1]
-#=> "foofoofoo"
-
-Promotion.joins(:category).
-         where(["lft>=? and rgt<=?", c.lft, c.rgt]).
-         joins(:shops).
-         where(:promotions_per_shops => { :shop_id => shops_id }).
-         count('id', :distinct => true)
+~/.gemrc
+downcase
