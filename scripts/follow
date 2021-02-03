@@ -1,4 +1,2 @@
-/abc(?!$)/
-
-<%= link_to 'Destroy', post_comment_path(@post, comment),
-            data: {:confirm => 'Are you sure?'}, :method => :delete %>
+except
+()
