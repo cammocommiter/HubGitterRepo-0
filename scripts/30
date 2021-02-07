@@ -1,1 +1,2 @@
-def this; end
+require_relative
+log/
