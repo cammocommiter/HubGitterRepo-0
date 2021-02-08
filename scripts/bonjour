@@ -1,2 +1,3 @@
-PagesController
-current_user
+myobject.send(:method_name, args)
+
+Array#uniq
