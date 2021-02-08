@@ -1,6 +1,8 @@
-Struct
-REG_KEYS = [
-    'Software\RubyInstaller\MRI',
-    'Software\RubyInstaller\Rubinius',
-    'Software\Wow6432Node\RubyInstaller\MRI'
-]
+brew info memcached
+
+new Regex("From:\\s*" + Regex.Escape(_mail), RegexOptions.IgnoreCase);
+new Regex("<" + Regex.Escape(_mail) + ">", RegexOptions.IgnoreCase);
+new Regex(Regex.Escape(_mail) + "\\s+wrote:", RegexOptions.IgnoreCase);
+new Regex("\\n.*On.*(\\r\\n)?wrote:\\r\\n", RegexOptions.IgnoreCase | RegexOptions.Multiline);
+new Regex("-+original\\s+message-+\\s*$", RegexOptions.IgnoreCase);
+new Regex("from:\\s*$", RegexOptions.IgnoreCase);
