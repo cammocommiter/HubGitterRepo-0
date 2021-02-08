@@ -1,3 +1,2 @@
-{ :a => 'a', :b => ('b' if cond) }.delete_if{ |k,v| v.nil? }
-
-__doc__
+class << self
+.split("\n")
