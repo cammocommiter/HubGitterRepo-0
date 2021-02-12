@@ -1,11 +1,9 @@
-ActiveRecord::Base.record_timestamps = false
-begin
-  run_the_code_that_imports_the_data
-ensure
-  ActiveRecord::Base.record_timestamps = true  # don't forget to enable it again!
-end
+RUBY_VERSION # => "1.9.2"
+bashrc = ENV['HOME'] + '/.bashrc'
+File.exist?(bashrc) # => true
+File.file?(bashrc)  # => true
+File.directory?(bashrc) # => false
 
-has_many  :active_events, :through => :event_users, 
-          :class_name => "Event", 
-          :source => :event, 
-          :conditions => ['event_users.active = ?',true]
+# rubocop:disable LineLength
+puts "This line is lonnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnng"
+# rubocop:enable LineLength
