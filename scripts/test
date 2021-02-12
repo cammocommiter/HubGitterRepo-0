@@ -1,2 +1,2 @@
-Time.now.utc
-rvmsudo
+<%# %>
+gem 'thin'
