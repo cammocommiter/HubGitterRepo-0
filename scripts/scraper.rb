@@ -1,2 +1,2 @@
-read
-rails console
+ruby -v
+Date.yesterday
