@@ -1,16 +1,20 @@
-<<END
-For strings containing multiple newlines, 
-particularly when the string is going to
-be output to the screen (and thus formatting
-matters), I use heredocs.
-END
+#!/usr/bin/env ruby
+require 'optparse'
 
-%q[Because I strongly dislike backslash quoting when unnecessary, I use %Q or %q
-for strings containing ' or " characters (usually with square braces, because they
-happen to be the easiest to type and least likely to appear in the text inside).]
+options = {}
 
-"For strings needing interpretation, I use %s."%['double quotes']
+optparse = OptionParser.new do |opts|
+  opts.on('-h', '--host HOSTNAME', "Mandatory Host Name") do |f|
+    options[:host] = f
+  end
+end
 
-'For the most common case, needing none of the above, I use single quotes.'
+optparse.parse!
 
-irb(main):015:0> def hi     irb(main):016:1> "hello"     irb(main):017:1> end     => nil     irb(main):018:0> hi.object_id     => 22452528     irb(main):019:0> hi.object_id.send hi     => "hi"     irb(main):020:0> hi.object_id.send(hi)     => "hi"
+#Now raise an exception if we have not found a host option
+raise OptionParser::MissingArgument if options[:host].nil?
+
+
+puts "Host = #{options[:host]}"
+
+ruby
