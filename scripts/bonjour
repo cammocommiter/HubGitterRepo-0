@@ -1,3 +1,4 @@
-myobject.send(:method_name, args)
-
-Array#uniq
+respond_to
+h = { :$in => array }
+h = { :'a.b' => 'c' }
+h[:s] = 42
