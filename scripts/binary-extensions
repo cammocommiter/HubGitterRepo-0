@@ -1,2 +1,3 @@
-HTTP_USER_AGENT
-Date.civil
+validates :network_id, :numericality => true, :allow_nil => true
+
+puts
