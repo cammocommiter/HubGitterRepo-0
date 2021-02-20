@@ -1,2 +1,2 @@
-~/.gemrc
-downcase
+Hash#slice
+ActiveSupport::CoreExtensions::String::Inflections
