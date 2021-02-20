@@ -1,7 +1,4 @@
-# Check
-find(:css, "#cityID[value='62']").set(true)
+10.minutes.ago
+2.days.since
 
-# Uncheck
-find(:css, "#cityID[value='62']").set(false)
-
-Tenant
+String#scan
