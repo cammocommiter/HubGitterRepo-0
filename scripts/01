@@ -1,6 +1,5 @@
-require 'date'
+  get ':action' => 'static#:action'
 
-date = DateTime.parse("2011-05-19 10:30:14")
-formatted_date = date.strftime('%a %b %d %H:%M:%S %Z %Y')
-
-Fixnum
+BlueCloth: 13.029987s total time, 00.130300s average
+   Maruku: 08.424132s total time, 00.084241s average
+RDiscount: 00.082019s total time, 00.000820s average
