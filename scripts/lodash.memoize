@@ -1,20 +1,3 @@
-#!/usr/bin/env ruby
-require 'optparse'
+Marshal.load(Marshal.dump(@object))
 
-options = {}
-
-optparse = OptionParser.new do |opts|
-  opts.on('-h', '--host HOSTNAME', "Mandatory Host Name") do |f|
-    options[:host] = f
-  end
-end
-
-optparse.parse!
-
-#Now raise an exception if we have not found a host option
-raise OptionParser::MissingArgument if options[:host].nil?
-
-
-puts "Host = #{options[:host]}"
-
-ruby
+Time.now.utc
