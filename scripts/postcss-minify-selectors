@@ -1,2 +1,3 @@
-Hash#slice
-ActiveSupport::CoreExtensions::String::Inflections
+validates :kind, :inclusion => { :in => ['a', 'b'] }, :allow_nil => true
+
+strptime
