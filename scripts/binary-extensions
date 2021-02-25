@@ -1,4 +1,2 @@
-gem install eventmachine --pre
-gem install thin
-
-continue
+L
+input = input.gsub(/[^0-9A-Za-z]/, '')
