@@ -1,3 +1,2 @@
-File.open("out.txt", [your-option-string]) {|f| f.write("write your stuff here") }
-
-sudo
+=
+gem install mygem
