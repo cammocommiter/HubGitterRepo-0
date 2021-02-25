@@ -1,3 +1,4 @@
-validates :network_id, :numericality => true, :allow_nil => true
+gem install eventmachine --pre
+gem install thin
 
-puts
+continue
