@@ -1,2 +1,5 @@
-Kernel#rand
-__add__
+array.max_by do |element|
+  element.field
+end
+
+Time
