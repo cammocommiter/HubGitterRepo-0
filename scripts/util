@@ -1,8 +1,3 @@
-brew info memcached
-
-new Regex("From:\\s*" + Regex.Escape(_mail), RegexOptions.IgnoreCase);
-new Regex("<" + Regex.Escape(_mail) + ">", RegexOptions.IgnoreCase);
-new Regex(Regex.Escape(_mail) + "\\s+wrote:", RegexOptions.IgnoreCase);
-new Regex("\\n.*On.*(\\r\\n)?wrote:\\r\\n", RegexOptions.IgnoreCase | RegexOptions.Multiline);
-new Regex("-+original\\s+message-+\\s*$", RegexOptions.IgnoreCase);
-new Regex("from:\\s*$", RegexOptions.IgnoreCase);
+require mygem
+%i[ ] # Non-interpolated Array of symbols, separated by whitespace
+%I[ ] # Interpolated Array of symbols, separated by whitespace
