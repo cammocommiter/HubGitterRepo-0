@@ -1,5 +1,4 @@
-data.each_slice(3) {|slice| ... }
-
----
-content:
-    session: 0
+to_sym
+class A
+  private_class_method :new
+end
