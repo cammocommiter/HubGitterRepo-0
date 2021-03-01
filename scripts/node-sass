@@ -1,9 +1,8 @@
-kind_of?
-class Object
-  def all_equals(o)
-    ops = [:==, :===, :eql?, :equal?]
-    Hash[ops.map(&:to_s).zip(ops.map {|s| send(s, o) })]
-  end
-end
+gem "foo", path: "/path/to/foo"
 
-"a".all_equals "a" # => {"=="=>true, "==="=>true, "eql?"=>true, "equal?"=>false}
+str = 'this is a multi-line string'\
+  ' using implicit concatenation'\
+  ' to prevent spare \n\'s'
+
+=> "this is a multi-line string using implicit concatenation to eliminate spare
+\\n's"
