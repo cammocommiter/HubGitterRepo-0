@@ -1,4 +1,6 @@
-Maps
-gem uninstall libv8
-gem install therubyracer -v '0.11.3'
-gem install libv8 -v '3.11.8.13' -- --with-system-v8
+rails --version # => the latest version
+rails _2.3.10_ --version # => Rails 2.3.10
+
+if val.nil? || val == 0
+  [do something]
+end
