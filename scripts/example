@@ -1,2 +1,2 @@
-Digest::SHA512.base64digest(user.password_digest)
-result = Users.find(:all, :order => "LOWER(name)")
+:select
+update
