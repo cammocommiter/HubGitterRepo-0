@@ -1,3 +1,3 @@
-`sleep --help`
+my_hash.each { |k, v| my_hash[k] = v.upcase } 
 
-def foo(a:, b:) ...
+objects.sort_by {|obj| obj.attribute}
