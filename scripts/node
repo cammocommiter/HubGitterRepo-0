@@ -1,5 +1,8 @@
-array.max_by do |element|
-  element.field
-end
+<%= f.hidden_field :service, :value => "test" %>
 
-Time
+module GemName
+
+  class AuthenticationError < StandardError; end
+  class InvalidUsername < AuthenticationError; end
+
+end
