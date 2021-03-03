@@ -1,1 +1,3 @@
-def this; end
+ruby -e 'puts $:'
+
+myvar = ENV['MY_VAR'] || 'foobar'
