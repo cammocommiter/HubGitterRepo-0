@@ -1,3 +1,5 @@
-validates :kind, :inclusion => { :in => ['a', 'b'] }, :allow_nil => true
+rails destroy controller lalala
+rails destroy model yadayada
+rails destroy scaffold hohoho
 
-strptime
+kind_of?
