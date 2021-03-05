@@ -1,2 +1,3 @@
-strptime
-to_s
+rake rails:update:bin
+
+%i[a b c d].all? {|s| hash.key? s}
