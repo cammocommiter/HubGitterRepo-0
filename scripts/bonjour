@@ -1,5 +1,2 @@
-database.yml
-strVar = File.open('somefile.txt') {|f| f.readline}
-# or, in Ruby 1.8.7 and above: #
-strVar = File.open('somefile.txt', &:readline)
-puts strVar
+% brew tap homebrew/homebrew-php
+my_array.find{|x| x.some_test }
