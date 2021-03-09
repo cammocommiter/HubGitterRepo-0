@@ -1,2 +1,2 @@
-class << self
-.split("\n")
+instance_methods
+Net::HTTP
