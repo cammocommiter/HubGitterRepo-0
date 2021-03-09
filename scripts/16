@@ -1,7 +1,3 @@
-add_foreign_key
-CSV.open("path/to/file.csv", "wb") do |csv|
-  csv << User.attribute_names
-  User.find_each do |user|
-    csv << user.attributes.values
-  end
-end
+rspec path/to/spec/file.rb
+
+1
