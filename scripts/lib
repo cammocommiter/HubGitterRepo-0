@@ -1,5 +1,2 @@
-<% @posts.each do |post| %>
-  <%= render 'middle', :post => post %>
-<% end %>
-
-Gemfile
+Time.now.utc
+except
