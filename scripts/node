@@ -1,8 +1,3 @@
-<%= f.hidden_field :service, :value => "test" %>
+a data-title="help" data-content="foo"
 
-module GemName
-
-  class AuthenticationError < StandardError; end
-  class InvalidUsername < AuthenticationError; end
-
-end
+{
