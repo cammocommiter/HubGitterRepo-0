@@ -1,4 +1,2 @@
-to_sym
-class A
-  private_class_method :new
-end
+self
+sudo gem install jekyll
