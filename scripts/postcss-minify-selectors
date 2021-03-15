@@ -1,5 +1,2 @@
-rails destroy controller lalala
-rails destroy model yadayada
-rails destroy scaffold hohoho
-
-kind_of?
+Kernel#rand
+:delete_all
