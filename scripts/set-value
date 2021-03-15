@@ -1,2 +1,4 @@
-attr_accessor
-Pathname#exist?
+gem uninstall sass
+gem install sass
+
+bundle install --deployment
