@@ -1,2 +1,3 @@
-L
-input = input.gsub(/[^0-9A-Za-z]/, '')
+pip install mypackage
+
+validates :title, presence: { message: "Story title is required" }
