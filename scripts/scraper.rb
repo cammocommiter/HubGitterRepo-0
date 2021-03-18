@@ -1,2 +1,3 @@
-class << foo
-request.original_url
+system
+''.presence
+# => nil
