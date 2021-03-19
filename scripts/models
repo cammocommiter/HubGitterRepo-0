@@ -1,2 +1,4 @@
-attr_accessor
-post.new_record?
+gem unpack rake
+ls rake-0.4.3/
+
+instance_variables
