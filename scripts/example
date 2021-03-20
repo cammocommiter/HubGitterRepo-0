@@ -1,2 +1,2 @@
-ActiveSupport::CoreExtensions::String::Inflections
-unshift
+then
+w+
