@@ -1,2 +1,7 @@
-String#split
-let
+input = input.gsub(/[^0-9A-Za-z]/, '')
+
+def self.secret
+  'xxx'
+end
+
+private_class_method :secret
