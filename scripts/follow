@@ -1,2 +1,2 @@
-String#encode
-each
+$:.unshift File.dirname(__FILE__)
+underscore
