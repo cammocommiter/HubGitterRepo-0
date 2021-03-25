@@ -1,5 +1,7 @@
-libjson-ruby
-Timecop.travel(6.days.ago) do
-  @model = TimeSensitiveMode.new
-end
-assert @model.times_up!
+> begin; lambda { return 1 }.call end
+1
+> begin; Proc.new { return 1 }.call end
+LocalJumpError: unexpected return
+...
+
+output
