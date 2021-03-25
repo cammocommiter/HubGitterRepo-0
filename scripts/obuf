@@ -1,2 +1,2 @@
-warn
-\r
+array.should =~ another_array
+ActiveSupport::CoreExtensions::String::Inflections
