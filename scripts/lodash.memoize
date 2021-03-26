@@ -1,3 +1,2 @@
-Marshal.load(Marshal.dump(@object))
-
-Time.now.utc
+respond_to_missing?
+require
