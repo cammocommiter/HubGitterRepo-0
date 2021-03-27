@@ -1,3 +1,12 @@
-rake assets:clean
+$ sudo vi /etc/paths
+/usr/local/bin
+/usr/local/sbin
+/usr/bin
+/bin
+/usr/sbin
+/sbin
 
-flash[:notice] = %Q[Created job number <a href="/jobs/list?job=#{update.id}">#{update.id}</a>]
+[1,"a",Object.new,:hi].inject({}) do |hash, item|
+  hash[item.to_s] = item
+  hash
+end
