@@ -1,2 +1,17 @@
-Kernel#rand
-:delete_all
+# This gem will work with 1.8.6 or greater...
+spec.required_ruby_version = '>= 1.8.6'
+
+# Only with ruby 2.0.x
+spec.required_ruby_version = '~> 2.0'
+
+require 'erb'
+require 'ostruct'
+
+class ErbalT < OpenStruct
+  def render(template)
+    ERB.new(template).result(binding)
+  end
+end
+
+et = ErbalT.new({ :first => 'Mislav', 'last' => 'Marohnic' })
+puts et.render('Name: <%= first %> <%= last %>')
