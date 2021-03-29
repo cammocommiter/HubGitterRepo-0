@@ -1,11 +1,5 @@
-Object.const_get("User")
+d = Date.new(2012, 8, 29)
+t = Time.now
+dt = DateTime.new(d.year, d.month, d.day, t.hour, t.min, t.sec, t.zone)
 
-  context "if eligible" do
-    before { allow(subject).to receive(:eligible?).and_return(true) }
-    it { should validate_presence_of(:name) }
-  end
-
-  context "if ineligible" do
-    before { allow(subject).to receive(:eligible?).and_return(false) }
-    it { should_not validate_presence_of(:name) }
-  end
+CamelCase
