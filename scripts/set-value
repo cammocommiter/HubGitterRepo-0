@@ -1,4 +1,2 @@
-gem uninstall sass
-gem install sass
-
-bundle install --deployment
+!variable.nil?
+downto
