@@ -1,7 +1,2 @@
-> begin; lambda { return 1 }.call end
-1
-> begin; Proc.new { return 1 }.call end
-LocalJumpError: unexpected return
-...
-
-output
+to_s
+Hash[original_hash.to_a.sample(n)]
