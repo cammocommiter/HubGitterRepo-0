@@ -1,17 +1,10 @@
-# This gem will work with 1.8.6 or greater...
-spec.required_ruby_version = '>= 1.8.6'
-
-# Only with ruby 2.0.x
-spec.required_ruby_version = '~> 2.0'
-
-require 'erb'
-require 'ostruct'
-
-class ErbalT < OpenStruct
-  def render(template)
-    ERB.new(template).result(binding)
-  end
+case a_variable # a_variable is the variable we want to compare
+when 1    #compare to 1
+  puts "it was 1" 
+when 2    #compare to 2
+  puts "it was 2"
+else
+  puts "it was something else"
 end
 
-et = ErbalT.new({ :first => 'Mislav', 'last' => 'Marohnic' })
-puts et.render('Name: <%= first %> <%= last %>')
+#each
