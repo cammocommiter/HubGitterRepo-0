@@ -1,3 +1,2 @@
-sudo apt-get install libxslt-dev libxml2-dev
-
-application_controller.rb
+before_validation
+->
