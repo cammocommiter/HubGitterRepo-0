@@ -1,2 +1,5 @@
-<<
-require "whenever"
+def instance_value
+  "my value"
+end
+
+Foo.constants
