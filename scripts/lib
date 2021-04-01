@@ -1,3 +1,34 @@
-array = array.uniq
+brew update
+brew install ruby
 
-assign_attributes
+# If you use bash
+echo 'export PATH=/usr/local/Cellar/ruby/2.4.1_1/bin:$PATH' >> ~/.bash_profile 
+
+# If you use ZSH:
+echo 'export PATH=/usr/local/Cellar/ruby/2.4.1_1/bin:$PATH' >> ~/.zprofile
+
+http = Net::HTTP.new('profil.wp.pl', 443)
+http.use_ssl = true
+path = '/login.html'
+
+# GET request -> so the host can set his cookies
+resp, data = http.get(path, nil)
+cookie = resp.response['set-cookie'].split('; ')[0]
+
+
+# POST request -> logging in
+data = 'serwis=wp.pl&url=profil.html&tryLogin=1&countTest=1&logowaniessl=1&login_username=blah&login_password=blah'
+headers = {
+  'Cookie' => cookie,
+  'Referer' => 'http://profil.wp.pl/login.html',
+  'Content-Type' => 'application/x-www-form-urlencoded'
+}
+
+resp, data = http.post(path, data, headers)
+
+
+# Output on the screen -> we should get either a 302 redirect (after a successful login) or an error page
+puts 'Code = ' + resp.code
+puts 'Message = ' + resp.message
+resp.each {|key, val| puts key + ' = ' + val}
+puts data
