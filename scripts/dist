@@ -1,2 +1,2 @@
-pry_debug
-params[:uploaded_file]
+inspect
+database.yml
