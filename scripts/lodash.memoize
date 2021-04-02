@@ -1,2 +1,2 @@
-respond_to_missing?
-require
+delete_suffix
+/usr/local/var/postgres/
