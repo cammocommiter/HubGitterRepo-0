@@ -1,12 +1,2 @@
-$ sudo vi /etc/paths
-/usr/local/bin
-/usr/local/sbin
-/usr/bin
-/bin
-/usr/sbin
-/sbin
-
-[1,"a",Object.new,:hi].inject({}) do |hash, item|
-  hash[item.to_s] = item
-  hash
-end
+your_text
+rm ~/.zcompdump*
