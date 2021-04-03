@@ -1,10 +1,11 @@
-case a_variable # a_variable is the variable we want to compare
-when 1    #compare to 1
-  puts "it was 1" 
-when 2    #compare to 2
-  puts "it was 2"
-else
-  puts "it was something else"
-end
+  context "if eligible" do
+    before { allow(subject).to receive(:eligible?).and_return(true) }
+    it { should validate_presence_of(:name) }
+  end
 
-#each
+  context "if ineligible" do
+    before { allow(subject).to receive(:eligible?).and_return(false) }
+    it { should_not validate_presence_of(:name) }
+  end
+
+params, headers, env, xhr, format
