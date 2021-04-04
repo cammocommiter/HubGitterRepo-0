@@ -1,2 +1,6 @@
-then
-w+
+if_this_is_a_true_value ? then_the_result_is_this : else_it_is_this
+
+                URL                 Helper                      Description
+----------------------------------------------------------------------------------------------------------------------------------
+member          /photos/1/preview   preview_photo_path(photo)   Acts on a specific resource so required id (preview specific photo)
+collection      /photos/search      search_photos_path          Acts on collection of resources(display all photos)
