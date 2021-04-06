@@ -1,2 +1,3 @@
-delete_suffix
-/usr/local/var/postgres/
+brew install imagemagick --disable-openmp
+
+#==
