@@ -1,8 +1,2 @@
-'\1'
-module Vehicle 
-... 
-class SelfPropelling 
-... 
-class Truck < SelfPropelling 
-  include Vehicle 
-... 
+Hash#merge
+fancy_require
