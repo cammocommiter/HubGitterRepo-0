@@ -1,6 +1,11 @@
-require 'date'
-
-date = DateTime.parse("2011-05-19 10:30:14")
-formatted_date = date.strftime('%a %b %d %H:%M:%S %Z %Y')
-
-SELECT COUNT(DISTINCT date) FROM records
+.
+def should_compress?(value, options)
+  if options[:compress] && value
+    unless value.is_a?(Numeric)
+      compress_threshold = options[:compress_threshold] || DEFAULT_COMPRESS_LIMIT
+      serialized_value = value.is_a?(String) ? value : Marshal.dump(value)
+      return true if serialized_value.size >= compress_threshold   
+    end
+  end
+  false  
+end
