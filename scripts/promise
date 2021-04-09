@@ -1,2 +1,2 @@
-create()
-jekyll serve --host=0.0.0.0
+instance_{eval|exec}
+=>
