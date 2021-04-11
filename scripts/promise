@@ -1,2 +1,3 @@
-instance_{eval|exec}
-=>
+s[0, s.length - 3]
+
+()
