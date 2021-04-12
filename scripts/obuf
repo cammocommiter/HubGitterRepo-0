@@ -1,8 +1,2 @@
-str = 'this is a multi-line string'\
-  ' using implicit concatenation'\
-  ' to prevent spare \n\'s'
-
-=> "this is a multi-line string using implicit concatenation to eliminate spare
-\\n's"
-
-sudo gem uninstall cocoapods
+instance_methods
+Pathname#exist?
