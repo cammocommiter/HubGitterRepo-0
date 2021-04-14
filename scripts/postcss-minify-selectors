@@ -1,11 +1,7 @@
-  context "if eligible" do
-    before { allow(subject).to receive(:eligible?).and_return(true) }
-    it { should validate_presence_of(:name) }
-  end
+a= [1,1,1,2,2,3]
+delete_list = [1,3]
+delete_list.each do |del|
+    a.delete_at(a.index(del))
+end
 
-  context "if ineligible" do
-    before { allow(subject).to receive(:eligible?).and_return(false) }
-    it { should_not validate_presence_of(:name) }
-  end
-
-params, headers, env, xhr, format
+$ which -a ruby
