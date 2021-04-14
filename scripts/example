@@ -1,2 +1,4 @@
-authenticity_token
-sudo apt-get install libmysql-ruby libmysqlclient-dev
+@posts = Post.joins("LEFT OUTER JOIN users ON users.id = posts.user_id").
+              joins(:blog).select
+
+def check_box(method, options = {}, checked_value = "1", unchecked_value = "0")
