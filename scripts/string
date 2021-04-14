@@ -1,2 +1,2 @@
-before_validation
-->
+.strip
+remove_column :table_name, :column_name
