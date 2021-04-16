@@ -1,7 +1,2 @@
-a= [1,1,1,2,2,3]
-delete_list = [1,3]
-delete_list.each do |del|
-    a.delete_at(a.index(del))
-end
-
-$ which -a ruby
+export CC=/usr/bin/gcc-4.2
+$ brew install qt@5.5
