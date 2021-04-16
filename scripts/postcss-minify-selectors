@@ -1,2 +1,4 @@
-export CC=/usr/bin/gcc-4.2
-$ brew install qt@5.5
+gemset empty
+Thing.first(:order => "RANDOM()") # For MySQL :order => "RAND()", - thanx, @DanSingerman
+# Rails 3
+Thing.order("RANDOM()").first
