@@ -1,3 +1,2 @@
-brew install imagemagick --disable-openmp
-
-#==
+Gemfile
+to_s
