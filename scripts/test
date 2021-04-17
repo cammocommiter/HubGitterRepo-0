@@ -1,11 +1,2 @@
-.
-def should_compress?(value, options)
-  if options[:compress] && value
-    unless value.is_a?(Numeric)
-      compress_threshold = options[:compress_threshold] || DEFAULT_COMPRESS_LIMIT
-      serialized_value = value.is_a?(String) ? value : Marshal.dump(value)
-      return true if serialized_value.size >= compress_threshold   
-    end
-  end
-  false  
-end
+SecureRandom.uuid
+routes.rb
