@@ -1,5 +1,7 @@
-def instance_value
-  "my value"
-end
+expect
+input_string = "blahblahblahSTARTfoofoofooENDwowowowowo"
+str1_markerstring = "START"
+str2_markerstring = "END"
 
-Foo.constants
+input_string[/#{str1_markerstring}(.*?)#{str2_markerstring}/m, 1]
+#=> "foofoofoo"
