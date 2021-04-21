@@ -1,7 +1,6 @@
-expect
-input_string = "blahblahblahSTARTfoofoofooENDwowowowowo"
-str1_markerstring = "START"
-str2_markerstring = "END"
+script/delayed_job
+require 'rake/testtask'
 
-input_string[/#{str1_markerstring}(.*?)#{str2_markerstring}/m, 1]
-#=> "foofoofoo"
+Rake::TestTask.new do |t|
+  t.pattern = "spec/*_spec.rb"
+end
