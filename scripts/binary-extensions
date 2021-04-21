@@ -1,2 +1,6 @@
-require
-Foo = String
+                URL                 Helper                      Description
+----------------------------------------------------------------------------------------------------------------------------------
+member          /photos/1/preview   preview_photo_path(photo)   Acts on a specific resource so required id (preview specific photo)
+collection      /photos/search      search_photos_path          Acts on collection of resources(display all photos)
+
+gem install colorize
