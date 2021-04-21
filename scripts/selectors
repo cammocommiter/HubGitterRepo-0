@@ -1,6 +1,2 @@
-script/delayed_job
-require 'rake/testtask'
-
-Rake::TestTask.new do |t|
-  t.pattern = "spec/*_spec.rb"
-end
+TestClass.instance_methods
+file.puts @string
