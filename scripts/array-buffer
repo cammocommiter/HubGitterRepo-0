@@ -1,6 +1,2 @@
-strVar = File.open('somefile.txt') {|f| f.readline}
-# or, in Ruby 1.8.7 and above: #
-strVar = File.open('somefile.txt', &:readline)
-puts strVar
-
-file_contents = CSV.read("csvfile.csv", col_sep: "$", encoding: "ISO8859-1")
+:things
+rails g migration change_date_format_in_my_table
