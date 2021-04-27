@@ -1,2 +1,6 @@
-$
-chmod go-w /Users/kristoffer
+gem 'unf' 
+
+f = Nokogiri::XML.fragment(str)
+
+f.search('.//img').remove
+puts f
