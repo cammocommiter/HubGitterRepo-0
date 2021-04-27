@@ -1,4 +1,5 @@
-has_secure_password
-AllCops:
-  Exclude:
-    - 'path/to/excluded/file.rb'
+array.max_by do |element|
+  element.field
+end
+
+rails_admin
