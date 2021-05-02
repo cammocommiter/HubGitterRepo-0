@@ -1,3 +1,13 @@
-{ :a => 'a', :b => ('b' if cond) }.delete_if{ |k,v| v.nil? }
+task :build => [:some_other_tasks] do
+  build
+end
 
-request.session_options[:id]
+task :build_all do
+  [:debug, :release].each { |t| build t }
+end
+
+def build(type = :debug)
+  # ...
+end
+
+[5, 10].min
