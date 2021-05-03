@@ -1,6 +1,3 @@
-class Person
-  attr_accessor :age
-  ...
-end
+data.each_slice(3) {|slice| ... }
 
-rvm implode
+ruby
