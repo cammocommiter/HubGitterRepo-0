@@ -1,2 +1,2 @@
-:things
-rails g migration change_date_format_in_my_table
+-Wno-error=unused-command-line-argument-hard-error-in-future
+interface
