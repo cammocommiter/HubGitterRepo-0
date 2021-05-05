@@ -1,5 +1,10 @@
-self.class::CONST
-h = {:a => 1, :b => 2.2}
-h.each_with_index do |(k, v), i|
-  p k, v, i
+Object.const_get("Admin").const_get("MetaDatasController")
+
+module Crawler
+  def self.logger
+    @logger
+  end
+  def self.logger=(logger)
+    @logger = logger
+  end
 end
