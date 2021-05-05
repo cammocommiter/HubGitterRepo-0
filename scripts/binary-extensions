@@ -1,6 +1,2 @@
-task :migrate, :roles => :db, :only => { :primary => true } do
-  # ...
-end
-
-@posts = Post.joins("LEFT OUTER JOIN users ON users.id = posts.user_id").
-              joins(:blog).select
+f=obj.m;f(x)
+Distinct
