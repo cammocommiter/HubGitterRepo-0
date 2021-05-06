@@ -1,13 +1,5 @@
-task :build => [:some_other_tasks] do
-  build
-end
-
-task :build_all do
-  [:debug, :release].each { |t| build t }
-end
-
-def build(type = :debug)
-  # ...
-end
-
-[5, 10].min
+rubocop --auto-gen-config
+>> hash = { "a"=>["a", "b", "c"], "b"=>["b", "c"] }
+=> {"a"=>["a", "b", "c"], "b"=>["b", "c"]}
+>> hash.values
+=> [["a", "b", "c"], ["b", "c"]]
