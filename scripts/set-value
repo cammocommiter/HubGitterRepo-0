@@ -1,4 +1,2 @@
-sudo gem install rails -V
-
-require 'io/console'
-password = STDIN.noecho(&:gets).chomp
+.nil?
+-v
