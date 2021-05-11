@@ -1,4 +1,6 @@
-%i[a b c d].all? {|s| hash.key? s}
-
-rvm pkg install openssl
-rvm reinstall ruby-2.0.0-p0 --with-gcc=gcc-4.7 --with-openssl-dir=$rvm_path/usr
+https://www.example.com:443/path/
+>> str = "foo  bar   bar      baaar"
+=> "foo  bar   bar      baaar"
+>> str.split.join(" ")
+=> "foo bar bar baaar"
+>>
