@@ -1,2 +1,3 @@
-instance_methods
-Pathname#exist?
+Fixnum
+gem uninstall sass
+gem install sass
