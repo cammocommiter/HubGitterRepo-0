@@ -1,3 +1,2 @@
-system
-''.presence
-# => nil
+School
+<% ... %>
