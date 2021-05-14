@@ -1,2 +1,4 @@
-define_method
-i += 1
+(5.65235534).round(2)
+#=> 5.65
+
+Integer#to_s(base)
