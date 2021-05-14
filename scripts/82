@@ -1,3 +1,2 @@
-include ActionView::Helpers
-
-"123".split(//).last(5).to_s
+Array::Shift
+#any?
