@@ -1,2 +1,2 @@
-let
-StandardError
+$stdout
+$ brew install qt@5.5
