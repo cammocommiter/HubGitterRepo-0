@@ -1,4 +1,9 @@
-@posts = Post.joins("LEFT OUTER JOIN users ON users.id = posts.user_id").
-              joins(:blog).select
+class Car < ActiveRecord::Base
+   belongs_to :vendor
+   belongs_to :company, :class_name => :Vendor,:foreign_key => "vendor_id"
+end
 
-def check_box(method, options = {}, checked_value = "1", unchecked_value = "0")
+<%= request.protocol + request.host_with_port %>
+#=> https://domain.com:3000
+<%= request.protocol + request.host %>
+#=> https://domain.com
