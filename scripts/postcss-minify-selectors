@@ -1,4 +1,13 @@
-(5.65235534).round(2)
-#=> 5.65
+module Vehicle 
+... 
+class SelfPropelling 
+... 
+class Truck < SelfPropelling 
+  include Vehicle 
+... 
 
-Integer#to_s(base)
+def foo
+  ...
+rescue
+  ...
+end
