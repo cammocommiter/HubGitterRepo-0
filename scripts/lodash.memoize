@@ -1,2 +1,3 @@
-Gemfile
-to_s
+sudo gem install rails
+
+rake assets:clean
