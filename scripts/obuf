@@ -1,3 +1,4 @@
-Fixnum
-gem uninstall sass
-gem install sass
+lib/ext/string.rb
+  task :my_task do
+    run "my_command"
+  end
