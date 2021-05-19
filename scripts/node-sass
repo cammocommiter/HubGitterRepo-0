@@ -1,7 +1,2 @@
-class User < ActiveRecord::Base
-  enum status: [ :admin, :user, :banned ]
-end
-
-if __FILE__ == $0
-  # this library may be run as a standalone script
-end
+false
+<%= render :partial => 'form', :locals => { :item => @item } %>
