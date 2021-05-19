@@ -1,3 +1,7 @@
-URI::MailTo::EMAIL_REGEXP
+class User < ActiveRecord::Base
+  enum status: [ :admin, :user, :banned ]
+end
 
-gem 'rails', '3.1.0.rc4’
+if __FILE__ == $0
+  # this library may be run as a standalone script
+end
