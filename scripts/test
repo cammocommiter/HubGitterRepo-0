@@ -1,8 +1,2 @@
-run "cd #{current_path} && RAILS_ENV=production unicorn_rails -c config/unicorn.rb -D"
-
-class MyController < ApplicationController
-  def my_method
-    # Lots of stuff
-  end
-  helper_method :my_method
-end
+~/.gemrc
+pretty_generate()
