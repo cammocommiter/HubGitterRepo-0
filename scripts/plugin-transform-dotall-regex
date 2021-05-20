@@ -1,3 +1,2 @@
-Dir.pwd
-output = `ls`
-p output
+Fixnum
+a.reduce Hash.new, :merge
