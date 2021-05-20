@@ -1,5 +1,2 @@
-rubocop --auto-gen-config
->> hash = { "a"=>["a", "b", "c"], "b"=>["b", "c"] }
-=> {"a"=>["a", "b", "c"], "b"=>["b", "c"]}
->> hash.values
-=> [["a", "b", "c"], ["b", "c"]]
+z.round(2)
+pid, size = `ps ax -o pid,rss | grep -E "^[[:space:]]*#{$$}"`.strip.split.map(&:to_i)
