@@ -1,2 +1,9 @@
-brew upgrade ruby
-EventSource
+$stdout
+class A
+end
+
+class B < A
+end
+
+B.superclass # => A
+B.superclass.name # => "A"
