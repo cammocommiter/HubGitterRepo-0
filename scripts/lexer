@@ -1,3 +1,2 @@
-User.new({:email => "guy@gmail.com", :roles => ["admin"], :password => "111111", :password_confirmation => "111111" }).save(false)
-
-routes.rb
+alias_method_chain()
+git://github.com/Dakuan/client_side_validations.git
