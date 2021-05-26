@@ -1,2 +1,2 @@
-||=
-ri
+assert_raises
+gem install ruby-debug19
