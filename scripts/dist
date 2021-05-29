@@ -1,10 +1,13 @@
-Object.const_get("Admin").const_get("MetaDatasController")
+$ rails runner "query"
 
-module Crawler
-  def self.logger
-    @logger
-  end
-  def self.logger=(logger)
-    @logger = logger
-  end
-end
+irb:01.0> array = [[:a,:b],[:a,:c],[:c,:b]]
+#=> [[:a, :b], [:a, :c], [:c, :b]]
+
+irb:02.0> array.group_by(&:first)
+#=> {:a=>[[:a, :b], [:a, :c]], :c=>[[:c, :b]]}
+
+irb:03.0> array.group_by(&:first).map{ |k,a| [k,a.map(&:last)] }
+#=> [[:a, [:b, :c]], [:c, [:b]]]
+
+irb:04.0> Hash[ array.group_by(&:first).map{ |k,a| [k,a.map(&:last)] } ]
+#=> {:a=>[:b, :c], :c=>[:b]}
