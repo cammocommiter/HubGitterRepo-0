@@ -1,5 +1,2 @@
-case item
-when MyClass
-...
-
-install
+abs
+or
