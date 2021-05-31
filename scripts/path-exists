@@ -1,1 +1,3 @@
-def this; end
+wordlist.sort_by { |word| word.downcase }
+
+L
