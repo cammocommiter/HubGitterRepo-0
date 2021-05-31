@@ -1,13 +1,4 @@
-module Vehicle 
-... 
-class SelfPropelling 
-... 
-class Truck < SelfPropelling 
-  include Vehicle 
-... 
-
-def foo
-  ...
-rescue
-  ...
-end
+create()
+=begin
+  [Multi line comment]
+=end
