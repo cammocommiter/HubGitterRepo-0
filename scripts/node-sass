@@ -1,2 +1,3 @@
-false
-<%= render :partial => 'form', :locals => { :item => @item } %>
+puts "Hello World"
+
+object_id
