@@ -1,6 +1,2 @@
-update_without_callbacks
-create_without_callbacks
-
-require 'json'
-value = '{"val":"test","val1":"test1","val2":"test2"}'
-puts JSON.parse(value) # => {"val"=>"test","val1"=>"test1","val2"=>"test2"}
+gets
+FileUtils.touch
