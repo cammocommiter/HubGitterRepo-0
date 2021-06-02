@@ -1,6 +1,9 @@
-create_table :my_table, id: false do |t|
-  t.string :key_column
-  t.string :value_column
+break
+# in config/initializers/active_admin.rb
+ActiveAdmin.setup do |config|
+    ....
 end
 
-lib/ext/string.rb
+module ActiveAdmin::ViewHelpers
+  include ApplicationHelper
+end
