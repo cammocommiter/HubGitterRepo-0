@@ -1,3 +1,2 @@
-script/server
-# ruby
-$stdout.sync = true
+hash = Hash.new([])
+sub
