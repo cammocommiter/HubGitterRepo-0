@@ -1,2 +1,2 @@
-gets
-FileUtils.touch
+sudo
+bundle exec
