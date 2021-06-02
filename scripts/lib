@@ -1,2 +1,5 @@
-&
-/System/Library
+!!nil   #=> false
+!!"abc" #=> true
+!!false #=> false
+
+require 'sidekiq/api'
