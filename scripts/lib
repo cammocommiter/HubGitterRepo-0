@@ -1,5 +1,2 @@
-!!nil   #=> false
-!!"abc" #=> true
-!!false #=> false
-
-require 'sidekiq/api'
+gem "haml", '3.0.25'
+IN
