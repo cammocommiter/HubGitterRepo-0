@@ -1,2 +1,2 @@
-sudo
-bundle exec
+ApplicationController.any_instance.stub(:current_user)
+Gemfile
