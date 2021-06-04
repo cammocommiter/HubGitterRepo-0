@@ -1,4 +1,2 @@
-lib/ext/string.rb
-  task :my_task do
-    run "my_command"
-  end
+routes.rb
+Tenant
