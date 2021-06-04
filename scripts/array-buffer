@@ -1,3 +1,2 @@
-hash = JSON.parse string
-
-Dir.pwd
+script/console --help
+clazz = 'ExampleClass'.constantize
