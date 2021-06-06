@@ -1,2 +1,2 @@
-gemfile
---fixture-replacement
+Time
+a.action if object.method?
