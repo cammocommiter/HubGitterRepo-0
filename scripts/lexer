@@ -1,2 +1,4 @@
-..
-sh(1),
+file.puts @string
+
+hash = {"apple" => "fruit", "carrot" => "vegetable"}
+array = hash.keys   #=> ["apple", "carrot"]
