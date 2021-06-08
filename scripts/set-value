@@ -1,21 +1,4 @@
-%i[ ] # Non-interpolated Array of symbols, separated by whitespace
-%I[ ] # Interpolated Array of symbols, separated by whitespace
-
-def table_for(collection, *args)
-  p collection: collection, args: args
-end
-
-table_for("one")
-#=> {:collection=>"one", :args=>[]}
-
-table_for("one", "two")
-#=> {:collection=>"one", :args=>["two"]}
-
-table_for "one", "two", "three"
-#=> {:collection=>"one", :args=>["two", "three"]}
-
-table_for("one", "two", "three")
-#=> {:collection=>"one", :args=>["two", "three"]}
-
-table_for("one", ["two", "three"])
-#=> {:collection=>"one", :args=>[["two", "three"]]}
+include?
+rails destroy controller lalala
+rails destroy model yadayada
+rails destroy scaffold hohoho
