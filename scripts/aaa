@@ -1,7 +1,2 @@
-puts
-class Example
-  def initialize(test='hey')
-    singleton = class << self; self end
-    singleton.send :define_method, :say_hello, lambda { test }
-  end
-end
+has_many
+config/initializers/delayed_job.rb
