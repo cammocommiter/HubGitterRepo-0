@@ -1,1 +1,7 @@
-def this; end
+puts Gem.loaded_specs["activesupport"].version
+
+def self.secret
+  'xxx'
+end
+
+private_class_method :secret
