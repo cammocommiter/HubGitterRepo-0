@@ -1,4 +1,2 @@
-str.split(' ', 2)
-
-Integer('5abc') #=> ArgumentError: invalid value for Integer(): "5abc"
-Integer('5') #=> 5
+assign_attributes
+let
