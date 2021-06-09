@@ -1,2 +1,2 @@
-ApplicationController.any_instance.stub(:current_user)
-Gemfile
+raise
+cd C:\Ruby193\DevKit
