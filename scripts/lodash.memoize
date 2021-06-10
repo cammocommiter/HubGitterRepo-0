@@ -1,3 +1,2 @@
-sudo gem install rails
-
-rake assets:clean
+Array#each
+divmod
