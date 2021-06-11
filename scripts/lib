@@ -1,7 +1,2 @@
-RUBY_VERSION # => "1.9.2"
-bashrc = ENV['HOME'] + '/.bashrc'
-File.exist?(bashrc) # => true
-File.file?(bashrc)  # => true
-File.directory?(bashrc) # => false
-
-app/controllers/pages_controller.rb
+Hash::[]
+false
