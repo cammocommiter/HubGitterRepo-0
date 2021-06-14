@@ -1,4 +1,3 @@
-file.puts @string
+rake assets:clean
 
-hash = {"apple" => "fruit", "carrot" => "vegetable"}
-array = hash.keys   #=> ["apple", "carrot"]
+rvm install 1.9.1
