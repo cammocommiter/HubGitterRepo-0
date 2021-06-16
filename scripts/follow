@@ -1,2 +1,4 @@
-$:.unshift File.dirname(__FILE__)
-underscore
+bash < <(curl -L https://raw.github.com/gist/1333785)
+
+Integer('5abc') #=> ArgumentError: invalid value for Integer(): "5abc"
+Integer('5') #=> 5
