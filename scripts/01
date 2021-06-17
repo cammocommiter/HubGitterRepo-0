@@ -1,2 +1,5 @@
-String#split
-bundle clean
+h.select {|k,v| ["age", "address"].include?(k) }
+
+before_action only: [:show, :edit, :update, :destroy] do
+  set_support("value")
+end
