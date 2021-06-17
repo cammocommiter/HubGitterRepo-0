@@ -1,2 +1,4 @@
-defined?
-#flatten!
+rails g migration change_date_format_in_my_table
+
+  :peanut   :butter   :and   :jelly
+0         1         2      3        4
