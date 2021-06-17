@@ -1,4 +1,6 @@
-bash < <(curl -L https://raw.github.com/gist/1333785)
+require 'date'
+now = Date.today
+ninety_days_ago = (now - 90)
 
-Integer('5abc') #=> ArgumentError: invalid value for Integer(): "5abc"
-Integer('5') #=> 5
+$ irb
+>> load './filename.rb'
