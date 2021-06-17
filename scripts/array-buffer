@@ -1,17 +1,4 @@
-class Tableless < ActiveRecord::Base
-  def self.columns
-    @columns ||= [];
-  end
+[1,2,3,4].shuffle => [2, 1, 3, 4]
+[1,2,3,4].shuffle => [1, 3, 2, 4]
 
-  def self.column(name, sql_type = nil, default = nil, null = true)
-    columns << ActiveRecord::ConnectionAdapters::Column.new(name.to_s, default,
-      sql_type.to_s, null)
-  end
-
-  # Override the save method to prevent exceptions.
-  def save(validate = true)
-    validate ? valid? : true
-  end
-end
-
-curl -sSL https://get.rvm.io | bash -s stable --ruby
+strip_tags
