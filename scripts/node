@@ -1,3 +1,5 @@
-a data-title="help" data-content="foo"
+array = [ '1', '2', '3' ]
 
-{
+rescue Exception => e
+  # ...
+end
