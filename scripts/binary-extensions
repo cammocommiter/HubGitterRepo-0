@@ -1,2 +1,3 @@
-!=
-mtime
+find('#some_button').find(:xpath,".//..").fill_in "Name:", :with => name
+
+data = File.read("/path/to/file")
