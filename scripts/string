@@ -1,2 +1,4 @@
-.strip
-remove_column :table_name, :column_name
+clients.select{|key, hash| hash["client_id"] == "2180" }
+#=> [["orange", {"client_id"=>"2180"}]]
+
+:delete_all
