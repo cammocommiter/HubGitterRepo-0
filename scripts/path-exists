@@ -1,2 +1,9 @@
-Enumerator
-TestClass.instance_methods
+File.dirname
+@var = "Hi"
+puts "#@var there!"  #=> "Hi there!"
+
+@@var = "Hi"
+puts "#@@var there!" #=> "Hi there!"
+
+$var = "Hi"
+puts "#$var there!"  #=> "Hi there!"
