@@ -1,2 +1,5 @@
-~/.gemrc
-pretty_generate()
+def check_box(method, options = {}, checked_value = "1", unchecked_value = "0")
+
+AllCops:
+  Exclude:
+    - 'path/to/excluded/file.rb'
