@@ -1,2 +1,3 @@
-raise
-cd C:\Ruby193\DevKit
+Object.const_get("User")
+
+self.foo
