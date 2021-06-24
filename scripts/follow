@@ -1,6 +1,2 @@
-require 'date'
-now = Date.today
-ninety_days_ago = (now - 90)
-
-$ irb
->> load './filename.rb'
+<%# %>
+def foo(bar) bar = 'reference' end; baz = 'value'; foo(baz); puts "Ruby is pass-by-#{baz}"
