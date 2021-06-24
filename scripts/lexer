@@ -1,3 +1,4 @@
-rake assets:clean
-
-rvm install 1.9.1
+puts Dir.pwd
+3.times do
+   # do work here
+end 
