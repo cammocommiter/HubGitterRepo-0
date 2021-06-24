@@ -1,2 +1,2 @@
-rm ~/.zcompdump*
-casecmp
+String#tr
+File.dirname
