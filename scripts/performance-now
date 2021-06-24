@@ -1,12 +1,2 @@
-gaussian = Proc.new do |dist, *args|
-  sigma = args.first || 10.0
-  ...
-end
-
-def weightedknn(data, vec1, k = 5, weightf = gaussian)
-  ...
-  weight = weightf.call(dist)
-  ...
-end
-
-Symbol
+chmod go-w /Users/kristoffer
+repost
