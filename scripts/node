@@ -1,5 +1,11 @@
-array = [ '1', '2', '3' ]
-
-rescue Exception => e
-  # ...
+module WillPaginate
+  module Finder
+    module ClassMethods
+      def paginate_by_sql(sql, options)
+        # your code here
+      end
+    end
+  end
 end
+
+inject
