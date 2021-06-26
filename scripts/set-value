@@ -1,4 +1,3 @@
-include?
-rails destroy controller lalala
-rails destroy model yadayada
-rails destroy scaffold hohoho
+A::B::C
+
+chars
