@@ -1,3 +1,14 @@
-A::B::C
+                URL                 Helper                      Description
+----------------------------------------------------------------------------------------------------------------------------------
+member          /photos/1/preview   preview_photo_path(photo)   Acts on a specific resource so required id (preview specific photo)
+collection      /photos/search      search_photos_path          Acts on collection of resources(display all photos)
 
-chars
+class JSONServer
+  def call(env)
+    [200, {"Content-Type" => "application/json"}, ['{ "message" : "Hello!" }']]
+  end
+end
+
+map '/hello.json' do
+  run JSONServer.new
+end
