@@ -1,5 +1,10 @@
-def check_box(method, options = {}, checked_value = "1", unchecked_value = "0")
-
-AllCops:
-  Exclude:
-    - 'path/to/excluded/file.rb'
+Model.reflections
+begin  # "try" block
+    puts 'I am before the raise.'  
+    raise 'An error has occurred.' # optionally: `raise Exception, "message"`
+    puts 'I am after the raise.'   # won't be executed
+rescue # optionally: `rescue Exception => ex`
+    puts 'I am rescued.'
+ensure # will always get executed
+    puts 'Always gets executed.'
+end 
