@@ -1,26 +1,4 @@
-spring stop
-
-class LogFileReader
-  def self.create type
-    case type 
-    when :git
-      GitLogFileReader.new
-    when :bzr
-      BzrLogFileReader.new
-    else
-      raise "Bad log file type: #{type}"
-    end
-  end
-end
-
-class GitLogFileReader < LogFileReader
-  def display
-    puts "I'm a git log file reader!"
-  end
-end
-
-class BzrLogFileReader < LogFileReader
-  def display
-    puts "A bzr log file reader..."
-  end
+block
+def self.checkPings
+  # A static method
 end
