@@ -1,10 +1,12 @@
-Model.reflections
-begin  # "try" block
-    puts 'I am before the raise.'  
-    raise 'An error has occurred.' # optionally: `raise Exception, "message"`
-    puts 'I am after the raise.'   # won't be executed
-rescue # optionally: `rescue Exception => ex`
-    puts 'I am rescued.'
-ensure # will always get executed
-    puts 'Always gets executed.'
-end 
+puts caller[0]
+
+Dir['*.rb'] #basic globs
+Dir['**/*.rb'] #** == any depth of directory, including current dir.
+#=> array of relative names
+
+File.expand_path('~/file.txt') #=> "/User/mat/file.txt"
+File.dirname('dir/file.txt') #=> 'dir'
+File.basename('dir/file.txt') #=> 'file.txt'
+File.join('a', 'bunch', 'of', 'strings') #=> 'a/bunch/of/strings'
+
+__FILE__ #=> the name of the current file
