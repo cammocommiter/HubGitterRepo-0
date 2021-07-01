@@ -1,3 +1,15 @@
-arg_dup = ARGV[ 0 ].dup
+module RemovableConstants
 
-Makefile
+  def def_if_not_defined(const, value)
+    self.class.const_set(const, value) unless self.class.const_defined?(const)
+  end
+
+  def redef_without_warning(const, value)
+    self.class.send(:remove_const, const) if self.class.const_defined?(const)
+    self.class.const_set(const, value)
+  end
+end
+
+require 'resque'
+
+Resque.info 
