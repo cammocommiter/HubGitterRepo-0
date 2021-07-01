@@ -1,2 +1,13 @@
-<%# %>
-def foo(bar) bar = 'reference' end; baz = 'value'; foo(baz); puts "Ruby is pass-by-#{baz}"
+all : usera userb userc....
+
+usera:
+       imapsync usera
+userb:
+       imapsync userb
+....
+
+#Put this in applictation_controller.rb
+before_filter :log_ram # or use after_filter
+def log_ram
+  logger.warn 'RAM USAGE: ' + `pmap #{Process.pid} | tail -1`[10,40].strip
+end
