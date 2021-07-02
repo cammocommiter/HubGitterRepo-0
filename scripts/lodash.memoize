@@ -1,4 +1,3 @@
-block
-def self.checkPings
-  # A static method
-end
+first, *rest = ex.split(/, /)
+
+self
