@@ -1,11 +1,11 @@
-begin  # "try" block
-    puts 'I am before the raise.'  
-    raise 'An error has occurred.' # optionally: `raise Exception, "message"`
-    puts 'I am after the raise.'   # won't be executed
-rescue # optionally: `rescue Exception => ex`
-    puts 'I am rescued.'
-ensure # will always get executed
-    puts 'Always gets executed.'
-end 
+class Array
+  def same_values?
+    self.uniq.length == 1
+  end
+end
 
-with_index
+
+[1, 1, 1, 1].same_values?
+[1, 2, 3, 4].same_values?
+
+inject
