@@ -1,13 +1,7 @@
-all : usera userb userc....
+ages = { 'Bruce' => 32, 'Clark' => 28 }
+mappings = { 'Bruce' => 'Bruce Wayne', 'Clark' => 'Clark Kent' }
 
-usera:
-       imapsync usera
-userb:
-       imapsync userb
-....
+ages.transform_keys(&mappings.method(:[]))
+#=> { 'Bruce Wayne' => 32, 'Clark Kent' => 28 }
 
-#Put this in applictation_controller.rb
-before_filter :log_ram # or use after_filter
-def log_ram
-  logger.warn 'RAM USAGE: ' + `pmap #{Process.pid} | tail -1`[10,40].strip
-end
+with_index
