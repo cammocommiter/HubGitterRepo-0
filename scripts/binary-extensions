@@ -1,3 +1,18 @@
-find('#some_button').find(:xpath,".//..").fill_in "Name:", :with => name
+module GTranslate
+  class Translator
+    def perform( text ); translate( text ); end
 
-data = File.read("/path/to/file")
+    private
+
+    def translate( text )
+      # do some private stuff here
+    end
+  end
+
+  def self.translate( text )
+    t = Translator.new
+    t.perform( text )
+  end
+end
+
+sh(1),
