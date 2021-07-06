@@ -1,3 +1,3 @@
-$ rvm upgrade 1.9.2-p136 1.9.2-p180
+@emails.join(",")
 
-{
+^
