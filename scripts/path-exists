@@ -1,9 +1,4 @@
-File.dirname
-@var = "Hi"
-puts "#@var there!"  #=> "Hi there!"
-
-@@var = "Hi"
-puts "#@@var there!" #=> "Hi there!"
-
-$var = "Hi"
-puts "#$var there!"  #=> "Hi there!"
+database.yml
+$ ruby --help
+[...]
+  -W[level]       set warning level; 0=silence, 1=medium, 2=verbose (default)
