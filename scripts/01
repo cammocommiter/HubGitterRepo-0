@@ -1,5 +1,2 @@
-h.select {|k,v| ["age", "address"].include?(k) }
-
-before_action only: [:show, :edit, :update, :destroy] do
-  set_support("value")
-end
+/usr/local/Cellar/ruby/...
+break
