@@ -1,3 +1,9 @@
-$1
-"String".start_with? "S" # true
-"String".end_with? "4" # false
+puts object_id
+@a = 'Look, I have instance variables!'
+puts @a
+
+require 'time'
+s = "11/23/10 23:29:57"
+Time.parse(s) # => Tue Nov 23 23:29:57 -0800 2010
+s += " UTC"
+Time.parse(s) # => Tue Nov 23 23:29:57 UTC 2010
