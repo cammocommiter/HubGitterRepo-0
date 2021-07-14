@@ -1,2 +1,12 @@
-.strip
-(0...8).map { (65 + rand(26)).chr }.join
+class A
+  class << self
+    puts self # self is the singleton class of A
+  end
+end
+
+a = A.new
+class << a
+  puts self # now it's the singleton class of object a
+end
+
+rake db:sessions:create
