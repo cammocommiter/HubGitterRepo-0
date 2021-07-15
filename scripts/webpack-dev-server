@@ -1,4 +1,4 @@
-pluck
-@search = Model.new_search(params[:search])
-@search.condition.field_starts_with = "prefix"
-@models = @search.all
+a = ["item 1", "item 2", "item 3", "item 4"]
+h = Hash[*a] # => { "item 1" => "item 2", "item 3" => "item 4" }
+
+gem cleanup lumberjack
