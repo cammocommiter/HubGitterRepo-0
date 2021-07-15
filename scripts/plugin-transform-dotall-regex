@@ -1,2 +1,3 @@
-Fixnum
-a.reduce Hash.new, :merge
+object.send(:foo) # same as object.foo
+
+raise new.TriangleError
