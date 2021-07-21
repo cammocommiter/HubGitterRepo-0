@@ -1,3 +1,10 @@
-puts caller[0]
+!
+hash1 = {'a' => 1, 'b' => 2}
+hash2 = {'a' => 1, 'b' => 2}
+hash3 = {'a' => 1, 'b' => 2, 'c' => 3}
 
-brew update
+hash1 == hash2 # => true
+hash1 == hash3 # => false
+
+hash1.to_a == hash2.to_a # => true
+hash1.to_a == hash3.to_a # => false
