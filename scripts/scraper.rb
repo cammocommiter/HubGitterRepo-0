@@ -1,11 +1,5 @@
-class Array
-  def same_values?
-    self.uniq.length == 1
-  end
-end
+bundle exec rake db:drop RAILS_ENV=test
+bundle exec rake db:create RAILS_ENV=test
+bundle exec rake db:schema:load RAILS_ENV=test
 
-
-[1, 1, 1, 1].same_values?
-[1, 2, 3, 4].same_values?
-
-git://github.com/Dakuan/client_side_validations.git
+has_many :memberships, dependent: :delete_all
