@@ -1,2 +1,2 @@
-foo
-.post{:class => ("gray" unless post.published?)}
+find_all
+**
