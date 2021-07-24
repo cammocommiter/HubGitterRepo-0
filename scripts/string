@@ -1,4 +1,2 @@
-clients.select{|key, hash| hash["client_id"] == "2180" }
-#=> [["orange", {"client_id"=>"2180"}]]
-
-:delete_all
+brew install ruby
+Hash
