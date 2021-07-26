@@ -1,1 +1,6 @@
-def this; end
+Date::MONTHNAMES[Date.today.month]
+class String
+  def initial
+    self[0,1]
+  end
+end
