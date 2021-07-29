@@ -1,3 +1,10 @@
-gem update --system
+export http_proxy=http://user:password@host:port
+export HTTP_PROXY=$http_proxy
 
-sort_by{...}.reverse!
+path = '/tmp/foo'
+lines = IO.readlines(path).map do |line|
+  'Kilroy was here ' + line
+end
+File.open(path, 'w') do |file|
+  file.puts lines
+end
