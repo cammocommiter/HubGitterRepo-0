@@ -1,2 +1,2 @@
-Model.reflections
-rvm --help
+yield
+self.class::CONST
