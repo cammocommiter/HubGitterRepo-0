@@ -1,7 +1,3 @@
-ages = { 'Bruce' => 32, 'Clark' => 28 }
-mappings = { 'Bruce' => 'Bruce Wayne', 'Clark' => 'Clark Kent' }
+f.input :color, :as => :select, :collection => Wine.colors.keys.to_a
 
-ages.transform_keys(&mappings.method(:[]))
-#=> { 'Bruce Wayne' => 32, 'Clark Kent' => 28 }
-
-with_index
+sudo apt-get install qt4-dev-tools libqt4-dev libqt4-core libqt4-gui
