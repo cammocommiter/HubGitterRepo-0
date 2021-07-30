@@ -1,2 +1,2 @@
-#flatten!
-include?
+number_with_delimiter
+task :t, [args] => [deps] 
