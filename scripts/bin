@@ -1,3 +1,2 @@
-Object.const_get("User")
-
-self.foo
+require
+puts "Hello World"
