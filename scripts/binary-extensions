@@ -1,2 +1,2 @@
-render_404
-pretty_generate()
+require
+require mygem
