@@ -1,10 +1,6 @@
-export http_proxy=http://user:password@host:port
-export HTTP_PROXY=$http_proxy
+rake rails:update:bin
 
-path = '/tmp/foo'
-lines = IO.readlines(path).map do |line|
-  'Kilroy was here ' + line
-end
-File.open(path, 'w') do |file|
-  file.puts lines
+// some_helper.rb
+def new_snazzy_select_tag(options = [])
+  select_tag 'tag_name_here', options.map { |option| [option.id, option.name] }
 end
