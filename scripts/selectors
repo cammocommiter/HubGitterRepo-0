@@ -1,2 +1,2 @@
-yield
-self.class::CONST
+is_a?
+method(int a, int b) vs method(String a, String b)
