@@ -1,2 +1,3 @@
-/bin/sh
-ensure
+change_column :users, :admin, :boolean, :default => false
+
+Dir::foreach
