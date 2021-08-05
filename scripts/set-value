@@ -1,2 +1,2 @@
-helper_method
-Logger::DEBUG
+ActionController::API
+alias_method_chain()
