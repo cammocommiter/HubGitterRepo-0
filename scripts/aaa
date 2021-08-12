@@ -1,2 +1,2 @@
-sudo xcode-select -switch /
-EventSource
+File.directory?("name")
+<%
