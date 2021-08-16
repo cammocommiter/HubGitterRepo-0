@@ -1,6 +1,2 @@
-rake rails:update:bin
-
-// some_helper.rb
-def new_snazzy_select_tag(options = [])
-  select_tag 'tag_name_here', options.map { |option| [option.id, option.name] }
-end
+Hash
+.nil?
