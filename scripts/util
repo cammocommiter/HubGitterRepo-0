@@ -1,4 +1,2 @@
-rails g migration change_date_format_in_my_table
-
-  :peanut   :butter   :and   :jelly
-0         1         2      3        4
+each_with_index
+authenticity_token
