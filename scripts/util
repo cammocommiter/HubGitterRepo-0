@@ -1,2 +1,2 @@
-each_with_index
-authenticity_token
+ruby your_program.rb
+form.schedule :as => :recurring
