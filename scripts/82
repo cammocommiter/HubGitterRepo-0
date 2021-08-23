@@ -1,3 +1,2 @@
-@bunch.group_by{|e| [e.commentable_id, e.commentable_type]}
-
-\A
+give_me_a_valid_model
+content_for?
