@@ -1,2 +1,4 @@
-next
-filter_map
+bundle exec rails db:rollback
+rails destroy model <model_name>
+
+rvm get stable
