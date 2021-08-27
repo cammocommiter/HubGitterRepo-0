@@ -1,3 +1,3 @@
-File.open(filename).grep(/string/)
+Dir["/path/to/directory/*.rb"].each {|file| require file }
 
-......
+ActionController::Base
