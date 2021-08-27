@@ -1,4 +1,7 @@
-a = ["item 1", "item 2", "item 3", "item 4"]
-h = Hash[*a] # => { "item 1" => "item 2", "item 3" => "item 4" }
+create
+respond_to do |format|
 
-gem cleanup lumberjack
+  format.html # show.html.erb
+  format.json { render json: @user }
+
+ end
