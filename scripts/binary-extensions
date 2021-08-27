@@ -1,2 +1,3 @@
-require
-require mygem
+CONST = 2 unless defined? CONST
+
+Enumerator#with_index
