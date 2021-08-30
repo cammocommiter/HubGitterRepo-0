@@ -1,2 +1,17 @@
-.nil?
-begin <code> end while <condition>
+module Site
+  @@name = "StackOverflow"
+
+  def self.setName(value)
+    @@name = value
+  end
+
+  def self.name
+    @@name
+  end
+end
+
+Site.name            # => "StackOverflow"
+Site.setName("Test")
+Site.name            # => "Test"
+
+gem install sass
