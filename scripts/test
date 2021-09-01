@@ -1,12 +1,12 @@
-puts caller[0]
+ruby
+module MyModule
+  def self.included(base)
+    base.class_eval do
+      before_save :do_something
+    end
+  end
 
-Dir['*.rb'] #basic globs
-Dir['**/*.rb'] #** == any depth of directory, including current dir.
-#=> array of relative names
-
-File.expand_path('~/file.txt') #=> "/User/mat/file.txt"
-File.dirname('dir/file.txt') #=> 'dir'
-File.basename('dir/file.txt') #=> 'file.txt'
-File.join('a', 'bunch', 'of', 'strings') #=> 'a/bunch/of/strings'
-
-__FILE__ #=> the name of the current file
+  def do_something
+    #do whatever
+  end
+end
