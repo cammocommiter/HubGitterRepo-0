@@ -1,7 +1,2 @@
-create
-respond_to do |format|
-
-  format.html # show.html.erb
-  format.json { render json: @user }
-
- end
+z.round(2)
+params.require(:post).permit(:name, :email, :categories => [])
