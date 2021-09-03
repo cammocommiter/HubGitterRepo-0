@@ -1,10 +1,21 @@
-!
-hash1 = {'a' => 1, 'b' => 2}
-hash2 = {'a' => 1, 'b' => 2}
-hash3 = {'a' => 1, 'b' => 2, 'c' => 3}
+time = Time.now                     # => Thu Jan 18 06:10:17 CST 2007
 
-hash1 == hash2 # => true
-hash1 == hash3 # => false
+time.to_formatted_s(:time)          # => "06:10"
+time.to_s(:time)                    # => "06:10"
 
-hash1.to_a == hash2.to_a # => true
-hash1.to_a == hash3.to_a # => false
+time.to_formatted_s(:db)            # => "2007-01-18 06:10:17"
+time.to_formatted_s(:number)        # => "20070118061017"
+time.to_formatted_s(:short)         # => "18 Jan 06:10"
+time.to_formatted_s(:long)          # => "January 18, 2007 06:10"
+time.to_formatted_s(:long_ordinal)  # => "January 18th, 2007 06:10"
+time.to_formatted_s(:rfc822)        # => "Thu, 18 Jan 2007 06:10:17 -0600"
+
+irb(main):001:0> a = (1..4).to_a
+=> [1, 2, 3, 4]
+irb(main):002:0> a.join("\n")
+=> "1\n2\n3\n4"
+irb(main):003:0> puts a.join("\n")
+1
+2
+3
+4
