@@ -1,2 +1,2 @@
-git fetch
-IO
+map
+form.schedule :as => :recurring
