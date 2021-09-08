@@ -1,3 +1,2 @@
-a.zip(s).flatten.compact
-
-mkdir_p
+mattr_accessor
+send
