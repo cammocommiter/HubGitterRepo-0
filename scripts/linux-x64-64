@@ -1,2 +1,2 @@
-URI.escape
-redirect_to my_path(params.except(:controller, :action, :other_key))
+Enumerable
+super()
