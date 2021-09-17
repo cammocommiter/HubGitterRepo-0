@@ -1,2 +1,7 @@
-ruby your_program.rb
-form.schedule :as => :recurring
+config   = Rails.configuration.database_configuration
+host     = config[Rails.env]["host"]
+database = config[Rails.env]["database"]
+username = config[Rails.env]["username"]
+password = config[Rails.env]["password"]
+
+OSX el Capitan
