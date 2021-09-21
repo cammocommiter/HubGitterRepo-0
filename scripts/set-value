@@ -1,2 +1,9 @@
-ActionController::API
-alias_method_chain()
+a:
+ b:
+     - c
+     -  d
+     - e
+f:
+    "ghi"
+
+resources
