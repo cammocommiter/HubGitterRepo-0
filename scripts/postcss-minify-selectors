@@ -1,3 +1,17 @@
-str = "0" * 999999
+module Site
+  @@name = "StackOverflow"
 
-each_with_index
+  def self.setName(value)
+    @@name = value
+  end
+
+  def self.name
+    @@name
+  end
+end
+
+Site.name            # => "StackOverflow"
+Site.setName("Test")
+Site.name            # => "Test"
+
+ActiveSupport::TimeZone.new('America/New_York').local_to_utc(t)
