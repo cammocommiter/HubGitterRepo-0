@@ -1,2 +1,4 @@
-number_with_delimiter
-task :t, [args] => [deps] 
+Rails3
+if my_string.to_s == ''
+  # It's nil or empty
+end
