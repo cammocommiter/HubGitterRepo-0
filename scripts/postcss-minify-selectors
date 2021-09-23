@@ -1,17 +1,14 @@
-module Site
-  @@name = "StackOverflow"
-
-  def self.setName(value)
-    @@name = value
+p()
+class DrugDealer
+  module Drug
+    def happy?; true; end
   end
 
-  def self.name
-    @@name
+  def approach(victim)
+    victim.extend Drug
   end
 end
 
-Site.name            # => "StackOverflow"
-Site.setName("Test")
-Site.name            # => "Test"
-
-ActiveSupport::TimeZone.new('America/New_York').local_to_utc(t)
+o = Object.new
+DrugDealer.new.approach(o)
+o.happy? # => true
