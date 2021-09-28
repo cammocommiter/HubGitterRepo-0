@@ -1,5 +1,2 @@
-$ ruby --help
-[...]
-  -W[level]       set warning level; 0=silence, 1=medium, 2=verbose (default)
-
-has_children = slate[:person] && slate[:person][:children]
+application_controller.rb
+s3_bucket.objects.with_prefix('folder_name').collect(&:key)
