@@ -1,3 +1,2 @@
-gem list rhc --remote --all
-
-Kernel#warn
+gem uninstall <gem-name>
+File
