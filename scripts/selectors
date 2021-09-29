@@ -1,2 +1,2 @@
-is_a?
-method(int a, int b) vs method(String a, String b)
+ruby -e ' puts "hello world" '
+<%= [*5..30].sample %>
