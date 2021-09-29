@@ -1,2 +1,2 @@
-self.class.whatever
-ActionController::Base
+application_controller.rb
+0.0.0.0
