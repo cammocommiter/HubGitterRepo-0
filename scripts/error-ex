@@ -1,3 +1,2 @@
-sentence.sub! 'Robert', 'Joe'
-
-my_hash.transform_keys(&:to_sym)
+ruby
+to_s
