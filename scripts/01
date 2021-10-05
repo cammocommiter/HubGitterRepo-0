@@ -1,17 +1,9 @@
-class Hello
-  def create_some_state
-    @hello = "hello"
-  end
-end
+File.open
+@var = "Hi"
+puts "#@var there!"  #=> "Hi there!"
 
-h = Hello.new
-p h.instance_variables 
+@@var = "Hi"
+puts "#@@var there!" #=> "Hi there!"
 
-h.create_some_state
-p h.instance_variables
-
-# Output
-[]
-["@hello"]
-
-uuid-ossp
+$var = "Hi"
+puts "#$var there!"  #=> "Hi there!"
