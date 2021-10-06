@@ -1,4 +1,5 @@
-Rails3
-if my_string.to_s == ''
-  # It's nil or empty
+array.each do |element|
+  element.do_stuff
 end
+
+config.action_controller.include_all_helpers = false
