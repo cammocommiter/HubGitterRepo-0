@@ -1,2 +1,2 @@
-/bin/bash --login; source ~/.rvm/scripts/rvm; rvm use 2.4.0
-gem uninstall -aIx
+values_at
+@post = Post.order("created_at").last
