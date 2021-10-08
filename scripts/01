@@ -1,9 +1,2 @@
-File.open
-@var = "Hi"
-puts "#@var there!"  #=> "Hi there!"
-
-@@var = "Hi"
-puts "#@@var there!" #=> "Hi there!"
-
-$var = "Hi"
-puts "#$var there!"  #=> "Hi there!"
+#each
+lowercase_and_underscore.rb
