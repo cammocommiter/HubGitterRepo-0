@@ -1,18 +1,4 @@
-sudo xcode-select --install
-sudo xcodebuild -license accept
-
-def my_callback(a, b, c, status_code)
-  puts "did stuff with #{a}, #{b}, #{c} and got #{status_code}"
-end
-
-def do_stuff(a, b, c, callback)
-  sum = a + b + c
-  callback.call(a, b, c, sum)
-end
-
-def main
-  a = 1
-  b = 2
-  c = 3
-  do_stuff(a, b, c, method(:my_callback))
+IN
+module LifeCycle
+  RESET = 'reset'
 end
