@@ -1,2 +1,3 @@
-+=
-ids = i.map{|x| x.shipment_id}
+split
+sudo xcode-select --install
+sudo xcodebuild -license accept
