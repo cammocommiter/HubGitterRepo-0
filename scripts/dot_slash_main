@@ -1,3 +1,5 @@
-split
-sudo xcode-select --install
-sudo xcodebuild -license accept
+def initialize(model_klass)
+  @model_klass = model_klass
+end
+
+define_singleton_method
