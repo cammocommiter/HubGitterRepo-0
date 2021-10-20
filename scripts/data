@@ -1,5 +1,2 @@
-array.each do |element|
-  element.do_stuff
-end
-
-config.action_controller.include_all_helpers = false
+DECIMAL
+gem update --system
