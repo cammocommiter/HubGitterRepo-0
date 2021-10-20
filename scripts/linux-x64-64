@@ -1,2 +1,9 @@
-self
-Gemfile
+rubocop --auto-gen-config
+require 'time'
+require 'date'
+
+t = Time.now
+d = DateTime.now
+
+dd = DateTime.parse(t.to_s)
+tt = Time.parse(d.to_s)
