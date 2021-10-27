@@ -1,12 +1,9 @@
-ruby
-module MyModule
-  def self.included(base)
-    base.class_eval do
-      before_save :do_something
-    end
-  end
+module Vehicle 
+... 
+class SelfPropelling 
+... 
+class Truck < SelfPropelling 
+  include Vehicle 
+... 
 
-  def do_something
-    #do whatever
-  end
-end
+<%# your_ruby_code %>
