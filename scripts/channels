@@ -1,2 +1,2 @@
-extend self
-bundle update
+uniq
+::foreach, ::open, ::read, and ::readlines
