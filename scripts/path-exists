@@ -1,3 +1,2 @@
-apt-get install ruby-dev
-
-The and and or keywords are banned. It's just not worth it. Always use && and || instead.
+-v
+.nil?
