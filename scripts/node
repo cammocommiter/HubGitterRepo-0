@@ -1,3 +1,4 @@
-gem uninstall nokogiri
+def self.method_name
+end
 
-File.expand_path("..", Dir.pwd)
+foo[0...100]
