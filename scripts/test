@@ -1,9 +1,3 @@
-module Vehicle 
-... 
-class SelfPropelling 
-... 
-class Truck < SelfPropelling 
-  include Vehicle 
-... 
+str_array = int_array.map(&:to_s)
 
-<%# your_ruby_code %>
+ceil
