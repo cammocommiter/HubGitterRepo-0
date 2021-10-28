@@ -1,2 +1,2 @@
-system
-/usr/local/Cellar/ruby/...
+:foo
+result.class.name
