@@ -1,3 +1,7 @@
-f.input :color, :as => :select, :collection => Wine.colors.keys.to_a
+lam = lambda { puts "Hello world"}
+lam.class
 
-sudo apt-get install qt4-dev-tools libqt4-dev libqt4-core libqt4-gui
+#output is
+=> Proc
+
+rvm reset
