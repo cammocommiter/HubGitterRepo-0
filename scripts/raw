@@ -1,12 +1,7 @@
-code
-$ bundle init
-Writing new Gemfile to /app/Gemfile
+if ( (aa != nil && self.prop1 == aa.decrypt) ||
+   (bb != nil && self.prop2 == bb.decrypt) ) &&
+   (self.id.nil? || self.id != id)
+  return true
+end
 
-$ cat Gemfile 
-# frozen_string_literal: true
-
-source "https://rubygems.org"
-
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
-
-# gem "rails"
+ config.active_record.migration_error = false#:page_load
