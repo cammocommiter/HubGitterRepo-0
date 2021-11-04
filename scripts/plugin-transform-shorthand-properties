@@ -1,10 +1,4 @@
-require 'filemagic'
-
-puts FileMagic.new(FileMagic::MAGIC_MIME).file(__FILE__)
-# => text/x-ruby; charset=us-ascii
-
-lam = lambda { puts "Hello world"}
-lam.class
-
-#output is
-=> Proc
+unless
+Given /^PENDING/ do
+  pending
+end
