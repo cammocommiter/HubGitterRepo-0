@@ -1,17 +1,4 @@
-module Site
-  @@name = "StackOverflow"
+if goo =~ /#{Regexp.quote(foo)}/
+#...
 
-  def self.setName(value)
-    @@name = value
-  end
-
-  def self.name
-    @@name
-  end
-end
-
-Site.name            # => "StackOverflow"
-Site.setName("Test")
-Site.name            # => "Test"
-
-gem install sass
+t = Time.at(i)
