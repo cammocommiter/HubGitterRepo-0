@@ -1,5 +1,2 @@
-parsed_url = URI.parse(url)
-http = Net::HTTP.new(parsed_url.host, parsed_url.port)
-http.use_ssl = true
-
-(cheeses & foods).empty?
+xcode-select
+false
