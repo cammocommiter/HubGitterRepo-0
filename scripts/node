@@ -1,4 +1,2 @@
-def self.method_name
-end
-
-foo[0...100]
+datetime.datetime.fromtimestamp
+bundle clean
