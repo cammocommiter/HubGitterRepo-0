@@ -1,2 +1,5 @@
-xcode-select
-false
+=begin
+  [Multi line comment]
+=end
+
+ActiveRecord::Base.logger = Logger.new(STDOUT)
