@@ -1,12 +1,2 @@
-  # Runs a subprocess and applies handlers for stdout and stderr
-  # Params:
-  # +command+:: command line string to be executed by the system
-  # +outhandler+:: +Proc+ object that takes a pipe object as first and only param (may be nil)
-  # +errhandler+:: +Proc+ object that takes a pipe object as first and only param (may be nil)
-
-irb> [1,2,3].each { |x| }
-  => [1, 2, 3]
-irb> x
-NameError: undefined local variable or method `x' for main:Object
-    from (irb):2
-    from :0
+Time
+ActiveRecord::Base.logger = Logger.new(STDOUT)
