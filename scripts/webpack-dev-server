@@ -1,3 +1,6 @@
-rails g factory_bot:model Car name speed:integer
-
-incorrect header check (Zlib::DataError)
+gem environment
+begin
+  # do something that fails...
+rescue => error
+  # error and $! are equivalent here
+end
