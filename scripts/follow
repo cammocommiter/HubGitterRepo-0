@@ -1,7 +1,15 @@
-lam = lambda { puts "Hello world"}
-lam.class
+class DrugDealer
+  module Drug
+    def happy?; true; end
+  end
 
-#output is
-=> Proc
+  def approach(victim)
+    victim.extend Drug
+  end
+end
 
-rvm reset
+o = Object.new
+DrugDealer.new.approach(o)
+o.happy? # => true
+
+Time.now.utc.to_date
