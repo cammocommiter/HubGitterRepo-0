@@ -1,2 +1,2 @@
-ruby -e ' puts "hello world" '
-<%= [*5..30].sample %>
+SecureRandom
+a.zip(s).flatten.compact
