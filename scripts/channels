@@ -1,2 +1,4 @@
-uniq
-::foreach, ::open, ::read, and ::readlines
+rvm pkg install openssl
+rvm reinstall ruby-2.0.0-p0 --with-gcc=gcc-4.7 --with-openssl-dir=$rvm_path/usr
+
+!=
