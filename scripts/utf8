@@ -1,2 +1,5 @@
-scan
-Array#sample
+{{>header}}
+    Hello {{name}}
+{{>footer}}
+
+StringIO
