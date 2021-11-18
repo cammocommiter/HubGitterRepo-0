@@ -1,6 +1,11 @@
-gem environment
-begin
-  # do something that fails...
-rescue => error
-  # error and $! are equivalent here
+bank.branches do |branch|
+  catch :missingyear do  #:missingyear acts as a label
+    branch.employees.each do |employee|
+      (2000..2011).each do |year|
+        throw :missingyear unless something  #break out of two loops
+      end
+    end
+  end #You end up here if :missingyear is thrown
 end
+
+send
