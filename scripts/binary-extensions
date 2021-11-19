@@ -1,3 +1,2 @@
-[needle1, needle2].any? { |needle| haystack.include? needle }
-
-Module
+private :xmethod
+consider_all_requests_local
