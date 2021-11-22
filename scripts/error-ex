@@ -1,2 +1,2 @@
-ruby
-to_s
+bundle clean
+mystring == yourstring
