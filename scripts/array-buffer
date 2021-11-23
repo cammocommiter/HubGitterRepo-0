@@ -1,5 +1,2 @@
-=begin
-  [Multi line comment]
-=end
-
-ActiveRecord::Base.logger = Logger.new(STDOUT)
+gem install bundle
+rvm --help
