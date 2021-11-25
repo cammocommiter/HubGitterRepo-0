@@ -1,2 +1,7 @@
-File.directory?("name")
-<%
+before { skip }
+# or 
+xdescribe
+# or 
+xcontext
+
+print
