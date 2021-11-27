@@ -1,1 +1,2 @@
-def this; end
+rvm install 1.9.1
+gem list
