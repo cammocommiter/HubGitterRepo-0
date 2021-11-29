@@ -1,21 +1,3 @@
-class Tableless < ActiveRecord::Base
-  def self.columns
-    @columns ||= [];
-  end
+remove_column :table_name, :column_name
 
-  def self.column(name, sql_type = nil, default = nil, null = true)
-    columns << ActiveRecord::ConnectionAdapters::Column.new(name.to_s, default,
-      sql_type.to_s, null)
-  end
-
-  # Override the save method to prevent exceptions.
-  def save(validate = true)
-    validate ? valid? : true
-  end
-end
-
-class Object
-  def try_outside_rails(meth, *args, &cb)
-    self.send(meth.to_sym, *args, &cb) if self.respond_to?(meth.to_sym)
-  end
-end
+include?
