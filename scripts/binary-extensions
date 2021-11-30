@@ -1,2 +1,2 @@
-private :xmethod
-consider_all_requests_local
+config/routes.rb
+if
