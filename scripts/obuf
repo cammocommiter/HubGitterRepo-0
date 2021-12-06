@@ -1,3 +1,15 @@
-scope :desc, order("events.event_at DESC")
+{ :a => 'a', :b => ('b' if cond) }.delete_if{ |k,v| v.nil? }
 
-Model.reflections
+def a(skip)
+  caller(skip)
+end
+def b(skip)
+  a(skip)
+end
+def c(skip)
+  b(skip)
+end
+c(0) #=> ["prog:2:in `a'", "prog:5:in `b'", "prog:8:in `c'", "prog:10"]
+c(1) #=> ["prog:5:in `b'", "prog:8:in `c'", "prog:11"]
+c(2) #=> ["prog:8:in `c'", "prog:12"]
+c(3) #=> ["prog:13"]
