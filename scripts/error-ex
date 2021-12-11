@@ -1,2 +1,4 @@
-bundle clean
-mystring == yourstring
+output = `ls`
+p output
+
+hash = JSON.parse string
