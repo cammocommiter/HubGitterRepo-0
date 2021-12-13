@@ -1,7 +1,2 @@
-#!/usr/bin/env ruby
-
-puts "$0            : #{$0}"
-puts "__FILE__      : #{__FILE__}"
-puts "$PROGRAM_NAME : #{$PROGRAM_NAME}"
-
-app/controllers/pages_controller.rb
+mkdir_p
+[*('a'..'z'), *('0'..'9')] # doesn't work in Ruby 1.8
