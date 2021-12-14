@@ -1,2 +1,8 @@
-config.threadsafe!
-code completion
+Process.pid
+path = '/tmp/foo'
+lines = IO.readlines(path).map do |line|
+  'Kilroy was here ' + line
+end
+File.open(path, 'w') do |file|
+  file.puts lines
+end
