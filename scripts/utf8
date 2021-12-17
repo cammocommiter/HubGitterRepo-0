@@ -1,5 +1,3 @@
-{{>header}}
-    Hello {{name}}
-{{>footer}}
+key, value = hash.first
 
-StringIO
+Word
