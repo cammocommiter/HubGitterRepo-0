@@ -1,2 +1,2 @@
-Time
-ActiveRecord::Base.logger = Logger.new(STDOUT)
+gemset empty
+Kernel#warn
