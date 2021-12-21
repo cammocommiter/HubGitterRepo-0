@@ -1,7 +1,4 @@
-config   = Rails.configuration.database_configuration
-host     = config[Rails.env]["host"]
-database = config[Rails.env]["database"]
-username = config[Rails.env]["username"]
-password = config[Rails.env]["password"]
+hash = {"apple" => "fruit", "carrot" => "vegetable"}
+array = hash.keys   #=> ["apple", "carrot"]
 
-OSX el Capitan
+sudo chown -R $USER /usr/local
