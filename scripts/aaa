@@ -1,7 +1,5 @@
-before { skip }
-# or 
-xdescribe
-# or 
-xcontext
+def logged_in?
+  user
+end
 
-print
+validates :foo, length: {minimum: 5, maximum: 5}, allow_blank: true
