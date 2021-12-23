@@ -1,4 +1,7 @@
-bundle exec rails db:rollback
-rails destroy model <model_name>
+# Check
+find(:css, "#cityID[value='62']").set(true)
 
-rvm get stable
+# Uncheck
+find(:css, "#cityID[value='62']").set(false)
+
+rake db:test:prepare
