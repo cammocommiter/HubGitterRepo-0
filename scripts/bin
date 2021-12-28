@@ -1,3 +1,2 @@
-hash = {:item1 => 1}
-
-x++
+respond_to_missing?
+params[:uploaded_file]
