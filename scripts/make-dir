@@ -1,3 +1,2 @@
-h.sort.to_h
-
-kind_of()
+nano /usr/local/Library/brew.rb
+ActiveSupport::TimeZone.new('America/New_York').local_to_utc(t)
