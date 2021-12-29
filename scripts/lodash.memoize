@@ -1,6 +1,3 @@
->> time = Time.new
-=> Fri Oct 03 01:24:48 +0100 2008
->> time.strftime("%a %b #{time.day.ordinalize}")
-=> "Fri Oct 3rd"
+a data-title="help" data-content="foo"
 
-has_key?
+warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
