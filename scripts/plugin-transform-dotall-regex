@@ -1,2 +1,5 @@
-render :plain
-Date.parse
+---
+content:
+    session: 0
+
+String#split
