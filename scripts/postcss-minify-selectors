@@ -1,14 +1,2 @@
-p()
-class DrugDealer
-  module Drug
-    def happy?; true; end
-  end
-
-  def approach(victim)
-    victim.extend Drug
-  end
-end
-
-o = Object.new
-DrugDealer.new.approach(o)
-o.happy? # => true
+include?
+child_process.exec
