@@ -1,5 +1,4 @@
----
-content:
-    session: 0
+''.presence
+# => nil
 
-String#split
+if
