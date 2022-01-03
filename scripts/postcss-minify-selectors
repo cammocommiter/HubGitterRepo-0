@@ -1,2 +1,2 @@
-include?
-child_process.exec
+has_many
+ActiveRecord::Base.connection.adapter_name == 'MySQL'
