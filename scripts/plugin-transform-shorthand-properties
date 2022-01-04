@@ -1,4 +1,8 @@
-unless
-Given /^PENDING/ do
-  pending
+cat = String.new("cat")
+def cat.speak
+    'miaow'
 end
+cat.speak #=> "miaow" 
+cat.singleton_methods #=> ["speak"] 
+
+phrase2 = phrase1.dup
