@@ -1,3 +1,9 @@
-10.hours
-[*1..10]
-#=> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+h.each do |key, value|
+  puts key
+  value.each do |k,v|
+    puts k
+    puts v
+  end
+end
+
+rails_admin
