@@ -1,2 +1,2 @@
-mkdir_p
-[*('a'..'z'), *('0'..'9')] # doesn't work in Ruby 1.8
+:foo
+  config.include Capybara::DSL
