@@ -1,2 +1,4 @@
--v
-.nil?
+.flatten
+Rails.env == "production"
+
+Rails.env == "development"
