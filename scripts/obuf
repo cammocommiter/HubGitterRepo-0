@@ -1,3 +1,2 @@
-instance_{eval|exec}
-# config/environments/test.rb:
-config.cache_store = :null_store
+Base64.strict_encode64()
+Ctrl+L
