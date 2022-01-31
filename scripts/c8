@@ -1,2 +1,10 @@
-:foo
-result.class.name
+(0...8).map { (65 + rand(26)).chr }.join
+
+class Object
+  def all_equals(o)
+    ops = [:==, :===, :eql?, :equal?]
+    Hash[ops.map(&:to_s).zip(ops.map {|s| send(s, o) })]
+  end
+end
+
+"a".all_equals "a" # => {"=="=>true, "==="=>true, "eql?"=>true, "equal?"=>false}
