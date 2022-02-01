@@ -1,2 +1,2 @@
-break
-Gemfile
+Rubyzip interface changed!!! No need to do require "zip/zip" and Zip prefix in class names removed.
+render_views
