@@ -1,2 +1,2 @@
-else
-z.round(2)
+-v
+array.sum
