@@ -1,5 +1,2 @@
-def logged_in?
-  user
-end
-
-validates :foo, length: {minimum: 5, maximum: 5}, allow_blank: true
+tags.map(&:name.to_proc).join(' ')
+scan
