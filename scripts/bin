@@ -1,2 +1,3 @@
-respond_to_missing?
-params[:uploaded_file]
+$LOAD_PATH
+
+underscore
