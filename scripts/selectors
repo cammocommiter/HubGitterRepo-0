@@ -1,2 +1,0 @@
-/spec
-cats.each { |cat| cat.name }
