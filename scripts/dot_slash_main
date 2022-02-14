@@ -1,4 +1,0 @@
-require 'active_support/core_ext/hash/conversions'
-hash = Hash.from_xml(nokogiri_document.to_s)
-
-user.reload
