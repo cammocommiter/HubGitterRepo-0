@@ -1,7 +1,0 @@
-require 'base64'
-Base64.encode64(File.open("file_path", "rb").read)
-
-require "net/http"
-url = URI.parse("http://www.google.com/")
-req = Net::HTTP.new(url.host, url.port)
-res = req.request_head(url.path)
