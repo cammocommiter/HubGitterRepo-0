@@ -1,4 +1,0 @@
-hash = {"apple" => "fruit", "carrot" => "vegetable"}
-array = hash.keys   #=> ["apple", "carrot"]
-
-sudo chown -R $USER /usr/local
