@@ -1,4 +1,0 @@
-opportunity ->{ @some_array.empty? }, ->{ @some_other_array.empty? }
-
-bundle config build.puma --with-cflags="-Wno-error=implicit-function-declaration"
-bundle install
