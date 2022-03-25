@@ -1,2 +1,0 @@
-create_table
-puts 'abcdefg'.start_with?('abc')  #=> true
