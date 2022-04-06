@@ -1,5 +1,0 @@
-user.errors.full_messages
-
-def remove_file(file)
-  File.delete(file)
-end
