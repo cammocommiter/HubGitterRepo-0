@@ -1,2 +1,0 @@
-public
-MyModule.constants.select {|c| MyModule.const_get(c).is_a? Class}
