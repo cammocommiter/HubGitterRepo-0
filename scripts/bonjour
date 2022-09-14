@@ -1,5 +1,0 @@
-# rubocop:disable LineLength
-puts "This line is lonnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnng"
-# rubocop:enable LineLength
-
-exists?
